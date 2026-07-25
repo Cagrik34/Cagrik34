@@ -1,65 +1,63 @@
-<!-- Static Banner -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Cagrik34/Cagrik34/main/github_banner.jpg" alt="Banner"/>
-</p>
+# Hi there, I'm Çağrı Giray Keşan 👋
 
-<h1 align="center">Çağrı Giray Keşan</h1>
-<p align="center">
-  <strong>Frontend Developer (React, Next.js, TypeScript)</strong><br/>
-  AI‑Influenced UX • Modern Web Interfaces • Scalable Frontend Architecture
-</p>
+### Frontend-Heavy Full-Stack Engineer | React, Next.js, TypeScript | Node.js & APIs | AI Intern @ Microsoft
+
+I build scalable, user-centric web applications and integrate modern full-stack architectures with **Agentic AI**, **RAG**, and **streaming UI** workflows.
 
 ---
 
-## 🧩 About Me
+### 💡 About Me
 
-I build scalable, user‑centric web applications with a focus on performance, maintainability, and accessibility.  
-My work explores how **AI‑driven systems influence frontend UX**, including streaming interactions, adaptive UI behaviors, and non‑deterministic interface patterns.
-
-I value clean architecture, predictable state management, and design‑driven development workflows.
-
----
-
-## 🚀 Core Focus Areas
-
-- **Production‑level Frontend Engineering** (React, Next.js, TypeScript)  
-- **AI‑Influenced UX** (streaming UI, adaptive interfaces, LLM‑driven flows)  
-- **State & Performance Optimization** (Redux Toolkit, Zustand, React Query)  
-- **Design‑Driven Development** (Figma → Component Architecture)  
-- **Secure & Maintainable UI Systems** (feature toggles, environment‑based releases)
+- 🤖 **AI Intern @ Microsoft** (AI Innovators Summer Program) — Focus on Agentic AI workflows, Copilot framework orchestration, and streaming UI components.
+- ⚡ **Ex-Frontend Intern @ Turknet** — Worked 8 months on production applications handling real user traffic with React, Next.js, TypeScript, and Redux Toolkit.
+- 🧠 **AI-Native Engineering Focus** — Bridging high-performance web systems with LLMs, RAG architectures, and multi-agent systems.
+- 🏅 **Global Leadership & Problem Solving** — Graduate of **McKinsey.org Forward Program** (MECE framework) & Finalist at **Aspire Leaders Program** (Harvard-designed leadership).
+- 🎓 **Education** — Studying Web Design & Coding at Istanbul University | Computer Programming Graduate from Istanbul Beykent University.
 
 ---
 
-## 🛠️ Tech Stack
+### 🛠️ Tech Stack & Capabilities
 
-**Frontend:** React, Next.js, TypeScript, JavaScript (ES6+), Redux Toolkit, Zustand, React Query, Tailwind CSS  
-**AI & Systems:** Python, TensorFlow, OpenCV, API design, streaming patterns  
-**Tooling:** Git, GitHub, Jira, Figma, Postman, VS Code  
-**Principles:** Clean Code, a11y, performance, maintainability, design systems
-
----
-
-## 📌 Selected Work
-
-### **Real‑Time Emotion & Intensity System**  
-*Python, TensorFlow, OpenCV, SQLite*  
-A desktop application classifying **13 emotional intensities** in real time using a CNN model.  
-Designed to demonstrate how sentiment signals can inform **adaptive UI/UX behaviors** in modern applications.
+| Domain | Technologies & Tools |
+| :--- | :--- |
+| **Frontend** | React, Next.js (App Router), TypeScript, JavaScript (ES6+), Redux Toolkit, Zustand, Tailwind CSS, HTML5/CSS3 |
+| **Backend & Database** | Node.js, Express.js, RESTful APIs, PostgreSQL, MongoDB, SQLite |
+| **AI & Intelligent Systems** | Agentic AI (Multi-Agent Architecture), RAG Systems, Streaming UI, OpenAI & Gemini APIs, Python, TensorFlow, OpenCV |
+| **Tooling & Process** | Git, GitHub, Jira, Figma, Postman, Agile/Scrum, MECE Framework, Clean Code & A11y |
 
 ---
 
-## 🎯 What I’m Exploring
+### 📌 Featured Projects
 
-- AI‑augmented frontend workflows  
-- Streaming UI patterns for LLM‑powered apps  
-- Component‑level performance strategies  
-- Secure, feature‑flag‑driven release flows  
+#### 🤖 [Microsoft Foundry Local RAG Assistant](https://github.com/Cagrik34/microsoft-foundry-local-rag-assistant)
+> **Python • RAG • Local LLMs • Vector Indexing**
+> - Privacy-first Local RAG system built for querying enterprise documents and context-aware retrieval.
+> - Engineered for low-latency offline AI querying with custom prompt constraints.
+
+#### 👁️ [Real-Time Face Emotion & Intensity System](https://github.com/Cagrik34/RealTime-Face-Emotion-Recognition)
+> **Python • TensorFlow/Keras • OpenCV • Tkinter • SQLite**
+> - Computer vision system using dynamic thresholding to classify **13 distinct emotional intensities** in real time.
+> - Features a modular architecture with live Tkinter GUI visualization and SQLite session data logging to demonstrate adaptive UI/UX behaviors.
+
+#### 📏 [Euclidean Distance Calculator](https://github.com/Cagrik34/euclidean-distance-calculator)
+> **Python • Computational Math**
+> - Lightweight mathematical utility calculating Euclidean distances in multi-dimensional space.
 
 ---
 
-## 📫 Connect
+### 🏆 Key Milestones & Programs
 
-- **LinkedIn:** [linkedin.com/in/cagrigiraykesan](https://linkedin.com/in/cagrigiraykesan)  
-- **GitHub:** [github.com/Cagrik34](https://github.com/Cagrik34)
+- 🌟 **Microsoft AI Innovators Summer Program** (2026) — Selected for hands-on AI architecture & Copilot orchestration.
+- 🎓 **Aspire Leaders Program** (2026) — Finalist (Selected among 10,588 finalists from 50,284 applicants) & Official CEO Recognition.
+- 📜 **McKinsey.org Forward Program** (2026) — 100% Completion (Structured Problem Solving, MECE, Strategic Communication).
+- 🎓 **Google GDG Build With AI Türkiye** & **HUAWEI Data Science & ML Bootcamp** participant.
 
-<p align="center">Building modern interfaces where frontend engineering meets AI‑driven interaction.</p>
+---
+
+### 📬 Connect With Me
+
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Çağrı%20Giray%20Keşan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cagrigiraykesan)
+[![GitHub Badge](https://img.shields.io/badge/GitHub-Cagrik34-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cagrik34)
+
+---
+*Building modern web interfaces where full-stack engineering meets AI-driven interaction.*
