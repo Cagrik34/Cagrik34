@@ -1,8 +1,13 @@
-# Hi there, I'm Çağrı Giray Keşan 👋
+<!-- Static Banner & Centered Header -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Cagrik34/Cagrik34/main/github_banner.jpg" alt="Banner" width="100%" />
 
-### Frontend-Heavy Full-Stack Engineer | React, Next.js, TypeScript | Node.js & APIs | AI Intern @ Microsoft
+  <h1>Hi there, I'm Çağrı Giray Keşan 👋</h1>
 
-I build scalable, user-centric web applications and integrate modern full-stack architectures with **Agentic AI**, **RAG**, and **streaming UI** workflows.
+  <h3>Frontend-Heavy Full-Stack Engineer | React, Next.js, TypeScript | Node.js & APIs | AI Intern @ Microsoft</h3>
+
+  <p>I build scalable, user-centric web applications and integrate modern full-stack architectures with <strong>Agentic AI</strong>, <strong>RAG</strong>, and <strong>streaming UI</strong> workflows.</p>
+</div>
 
 ---
 
@@ -56,8 +61,14 @@ I build scalable, user-centric web applications and integrate modern full-stack 
 
 ### 📬 Connect With Me
 
-[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Çağrı%20Giray%20Keşan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cagrigiraykesan)
+<div align="center">
+
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Cagri_Giray_Kesan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cagrigiraykesan)
 [![GitHub Badge](https://img.shields.io/badge/GitHub-Cagrik34-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cagrik34)
 
----
-*Building modern web interfaces where full-stack engineering meets AI-driven interaction.*
+<br />
+<br />
+
+_Building modern web interfaces where full-stack engineering meets AI-driven interaction._
+
+</div>
