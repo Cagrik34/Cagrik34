@@ -63,11 +63,27 @@
 
 <div align="center">
 
-[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Cagri_Giray_Kesan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cagrigiraykesan)
-[![GitHub Badge](https://img.shields.io/badge/GitHub-Cagrik34-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cagrik34)
+<!-- LinkedIn -->
+<a href="https://www.linkedin.com/in/cagrigiraykesan" target="_blank">
+  <img
+    src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg"
+    width="52"
+    height="40"
+    alt="linkedin logo"
+  />
+</a>
 
-<br />
-<br />
+<!-- GitHub -->
+<a href="https://github.com/Cagrik34" target="_blank">
+  <img
+    src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/github/default.svg"
+    width="52"
+    height="40"
+    alt="github logo"
+  />
+</a>
+
+<br /><br />
 
 _Building modern web interfaces where full-stack engineering meets AI-driven interaction._
 
