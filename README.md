@@ -24,7 +24,7 @@
 
 | Domain | Technologies & Tools |
 | :--- | :--- |
-| **Frontend** | React, Next.js (App Router), TypeScript, JavaScript (ES6+), Redux Toolkit, Zustand, Tailwind CSS, HTML5/CSS3 |
+| **Frontend** | React, Next.js (App Router), TypeScript, JavaScript (ES6+), Redux Toolkit, Tailwind CSS, HTML5/CSS3 |
 | **Backend & Database** | Node.js, Express.js, RESTful APIs, PostgreSQL, MongoDB, SQLite |
 | **AI & Intelligent Systems** | Agentic AI (Multi-Agent Architecture), RAG Systems, Streaming UI, OpenAI & Gemini APIs, Python, TensorFlow, OpenCV |
 | **Tooling & Process** | Git, GitHub, Jira, Figma, Postman, Agile/Scrum, MECE Framework, Clean Code & A11y |
@@ -63,5 +63,7 @@
 <p align="left">
   <a href="https://www.linkedin.com/in/cagrigiraykesan" target="_blank"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo" /></a><a href="mailto:cagrigiraykesan@gmail.com" target="_blank"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="gmail logo" /></a>
 </p>
+
+<br /><br />
 
 _Building modern web interfaces where full-stack engineering meets AI-driven interaction._
