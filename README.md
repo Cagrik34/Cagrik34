@@ -1,4 +1,3 @@
-<!-- Static Banner & Centered Header -->
 <div align="center">
   <img src="https://raw.githubusercontent.com/Cagrik34/Cagrik34/main/github_banner.jpg" alt="Banner" width="100%" />
 
@@ -63,7 +62,6 @@
 
 <div align="center">
 
-<!-- LinkedIn -->
 <a href="https://www.linkedin.com/in/cagrigiraykesan" target="_blank">
   <img
     src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg"
@@ -73,13 +71,12 @@
   />
 </a>
 
-<!-- GitHub -->
-<a href="https://github.com/Cagrik34" target="_blank">
+<a href="mailto:cagrigiraykesan@gmail.com" target="_blank">
   <img
-    src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg"
+    src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg"
     width="52"
     height="40"
-    alt="github logo"
+    alt="gmail logo"
   />
 </a>
 
