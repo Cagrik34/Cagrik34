@@ -12,7 +12,7 @@
 
 ### 💡 About Me
 
-- 🤖 **AI Intern @ Microsoft** (AI Innovators Summer Program) — Engineering Agentic AI workflows, Copilot framework orchestration, and streaming UI components.
+- 🤖 **AI Intern @ Microsoft** (AI Innovators Summer Program) — Architected privacy-first Local RAG systems (Microsoft Foundry Local SDK), hybrid retrieval pipelines, and real-time streaming UI workflows.
 - ⚡ **Ex-Frontend Intern @ TurkNet** — Worked on production applications handling real user traffic with React, Next.js, TypeScript, and Redux Toolkit.
 - 🧠 **AI-Native & Quant Engineering Focus** — Bridging high-performance client-side interfaces with zero-knowledge analytics, LLMs, and multi-agent systems.
 - 🏅 **Global Leadership & Problem Solving** — Graduate of **McKinsey.org Forward Program** (MECE framework) & Finalist at **Aspire Leaders Program** (Selected among 10,588 finalists from 50,284 global applicants — Top ~21%).
@@ -38,10 +38,10 @@
 > - High-performance quantitative terminal processing real-time telemetry across **1,051 TEFAS mutual funds** and market indicators natively in client-side memory.
 > - Features **Zenith Quant Hive (5 autonomous agents)**, 11 quantitative engines (Black-Litterman, HRP, Monte Carlo), hardware-accelerated 60 FPS charts, and 4-page Goldman-standard PDF Pitchbook generation.
 
-#### 🤖 [Microsoft Foundry Local RAG Assistant](https://github.com/Cagrik34/microsoft-foundry-local-rag-assistant)
-> **Python • Local RAG • Vector Indexing • Prompt Constraints**
-> - Privacy-first offline Local RAG system built for querying enterprise documents and context-aware retrieval with sub-second response times.
-> - Engineered for low-latency offline AI querying with custom constraint-driven prompt orchestration.
+#### ⚡ [Zenith AI — Enterprise SOTA Local RAG Assistant](https://github.com/Cagrik34/microsoft-foundry-local-rag-assistant)
+> **React 18 • TypeScript • FastAPI • Foundry Local SDK • phi-4-mini • Hybrid Search (RRF)**
+> - Institutional-grade, 100% offline Local RAG assistant operating with zero cloud egress, zero external API costs, and strict zero data leakage.
+> - Features **Hybrid Search (1024-d Dense + SQLite FTS5 BM25 via Reciprocal Rank Fusion)**, Perplexity-style in-text citation tooltips, structure-aware Excel/PDF parsing, and dual-way offline Voice AI (faster-whisper STT & 60 FPS audio visualizer).
 
 #### 👁️ [Real-Time Face Emotion & Intensity System](https://github.com/Cagrik34/RealTime-Face-Emotion-Recognition)
 > **Python • TensorFlow/Keras • OpenCV • Tkinter • SQLite**
