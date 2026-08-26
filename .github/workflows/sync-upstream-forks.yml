@@ -1,0 +1,128 @@
+name: 🔄 Centralized Upstream Fork Synchronizer
+
+on:
+  schedule:
+    - cron: '0 2 * * *' # Executes daily at 02:00 UTC (05:00 TRT)
+  workflow_dispatch:
+    inputs:
+      target_repo:
+        description: 'Target repository to sync (Select "all" or specific repo name)'
+        required: true
+        default: 'all'
+        type: choice
+        options:
+          - 'all'
+          - 'PhiCookBook'
+          - 'gemini-cookbook'
+          - 'gemma-cookbook'
+          - 'claude-cookbooks'
+          - 'llama-cookbook'
+          - 'mistral-cookbook'
+          - 'cookbook'
+          - 'cohere-developer-experience'
+          - 'vercel-ai'
+          - 'ollama-python'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync-forks:
+    name: 🚀 Synchronize Global AI Repositories
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🔒 Validate Authentication & Execute Upstream Sync
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.SYNC_FORK_PAT || secrets.GITHUB_TOKEN }}
+          script: |
+            const forks = [
+              { name: 'PhiCookBook', upstream: 'microsoft/PhiCookBook', branch: 'main' },
+              { name: 'gemini-cookbook', upstream: 'google-gemini/cookbook', branch: 'main' },
+              { name: 'gemma-cookbook', upstream: 'google-gemma/cookbook', branch: 'main' },
+              { name: 'claude-cookbooks', upstream: 'anthropics/claude-cookbooks', branch: 'main' },
+              { name: 'llama-cookbook', upstream: 'meta-llama/llama-cookbook', branch: 'main' },
+              { name: 'mistral-cookbook', upstream: 'mistralai/cookbook', branch: 'main' },
+              { name: 'cookbook', upstream: 'huggingface/cookbook', branch: 'main' },
+              { name: 'cohere-developer-experience', upstream: 'cohere-ai/cohere-developer-experience', branch: 'main' },
+              { name: 'vercel-ai', upstream: 'vercel/ai', branch: 'main' },
+              { name: 'ollama-python', upstream: 'ollama/ollama-python', branch: 'main' }
+            ];
+
+            const selectedTarget = context.payload.inputs?.target_repo || 'all';
+            const targetsToProcess = selectedTarget === 'all' 
+              ? forks 
+              : forks.filter(f => f.name === selectedTarget);
+
+            const auditResults = [];
+
+            core.info(`Starting synchronization for ${targetsToProcess.length} repository/repositories...`);
+
+            for (const item of targetsToProcess) {
+              core.startGroup(`🔄 Processing ${item.name} (${item.upstream})`);
+              try {
+                const response = await github.rest.repos.mergeUpstream({
+                  owner: context.repo.owner,
+                  repo: item.name,
+                  branch: item.branch
+                });
+
+                const mergeType = response.data.merge_type || 'synced';
+                const message = response.data.message || 'Successfully updated';
+                core.info(`✅ [${item.name}]: ${message} (Type: ${mergeType})`);
+
+                auditResults.push({
+                  repo: item.name,
+                  upstream: item.upstream,
+                  status: 'SUCCESS ✅',
+                  details: `${message} (${mergeType})`
+                });
+              } catch (err) {
+                const status = err.status || 500;
+                let message = err.message;
+
+                if (status === 409) {
+                  message = 'Merge conflict detected on upstream branch. Active PR branches remain safe.';
+                  core.warning(`⚠️ [${item.name}]: ${message}`);
+                  auditResults.push({
+                    repo: item.name,
+                    upstream: item.upstream,
+                    status: 'CONFLICT ⚠️',
+                    details: message
+                  });
+                } else if (status === 422 || message.includes('already up to date') || message.includes('nothing to merge')) {
+                  message = 'Already up to date with upstream.';
+                  core.info(`ℹ️ [${item.name}]: ${message}`);
+                  auditResults.push({
+                    repo: item.name,
+                    upstream: item.upstream,
+                    status: 'UP-TO-DATE ℹ️',
+                    details: message
+                  });
+                } else {
+                  core.error(`❌ [${item.name}]: ${message}`);
+                  auditResults.push({
+                    repo: item.name,
+                    upstream: item.upstream,
+                    status: 'ERROR ❌',
+                    details: message
+                  });
+                }
+              }
+              core.endGroup();
+            }
+
+            // Generate Rich Markdown Step Summary
+            let summaryMarkdown = `## 🔄 Upstream Synchronization Audit Report\n\n`;
+            summaryMarkdown += `**Executed at:** \`${new Date().toISOString()}\`\n`;
+            summaryMarkdown += `**Processed Repositories:** \`${targetsToProcess.length}\`\n\n`;
+            summaryMarkdown += `| Repository | Upstream Source | Status | Audit Details |\n`;
+            summaryMarkdown += `| :--- | :--- | :---: | :--- |\n`;
+
+            for (const res of auditResults) {
+              summaryMarkdown += `| **[${res.repo}](https://github.com/${context.repo.owner}/${res.repo})** | \`${res.upstream}\` | ${res.status} | ${res.details} |\n`;
+            }
+
+            await core.summary.addRaw(summaryMarkdown).write();
