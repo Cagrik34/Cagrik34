@@ -59,13 +59,18 @@
 
 ---
 
-### 🌐 Open Source Contributions & Recipes
+### 🌐 Open Source Contributions & AI Recipes (10 Global Repositories)
 
-- 🏛️ **[microsoft/PhiCookBook #571](https://github.com/microsoft/PhiCookBook/pull/571)** — Official Contributor: Added zero-cloud local hybrid RAG recipe with SQLite FTS5 and `phi-4-mini`.
-- 🔷 **[google-gemini/cookbook #1347](https://github.com/google-gemini/cookbook/pull/1347)** — Authored zero-cloud local hybrid RAG recipe with SQLite FTS5 and Gemini 2.5/3.7 (`google-genai` SDK).
-- ▲ **[vercel/ai #19536](https://github.com/vercel/ai/pull/19536)** — Authored Next.js SQLite FTS5 local hybrid RAG recipe for Vercel AI SDK.
-- 🌿 **[cohere-ai/cohere-developer-experience #799](https://github.com/cohere-ai/cohere-developer-experience/pull/799)** — Authored zero-cloud hybrid RAG with SQLite FTS5 and Cohere Rerank v3.5.
-- 🦙 **[meta-llama/llama-cookbook #1074](https://github.com/meta-llama/llama-cookbook/pull/1074)** — Authored on-device hybrid RAG recipe with SQLite FTS5 for Llama 3.2.
+- 🏛️ **[microsoft/PhiCookBook #571](https://github.com/microsoft/PhiCookBook/pull/571)** — **Merged Official Contributor**: Zero-cloud local hybrid RAG recipe with SQLite FTS5 and `phi-4-mini`.
+- 🔷 **[google-gemini/cookbook #1347](https://github.com/google-gemini/cookbook/pull/1347)** — Zero-cloud local hybrid RAG recipe with SQLite FTS5 and Gemini 2.5/3.7 (`google-genai` SDK).
+- 💎 **[google-gemma/cookbook #426](https://github.com/google-gemma/cookbook/pull/426)** — Zero-cloud on-device hybrid RAG recipe with SQLite FTS5 and Gemma 2.
+- 🤖 **[anthropics/claude-cookbooks #847](https://github.com/anthropics/claude-cookbooks/pull/847)** — Zero-cloud local hybrid RAG recipe with SQLite FTS5 and Claude tool use.
+- 🦙 **[meta-llama/llama-cookbook #1074](https://github.com/meta-llama/llama-cookbook/pull/1074)** — On-device hybrid RAG recipe with SQLite FTS5 for Llama 3.2.
+- 🌪️ **[mistralai/cookbook #399](https://github.com/mistralai/cookbook/pull/399)** — Zero-cloud local hybrid RAG recipe with SQLite FTS5 for Mistral AI.
+- 🤗 **[huggingface/cookbook #368](https://github.com/huggingface/cookbook/pull/368)** — Zero-cloud local hybrid RAG recipe with SQLite FTS5 and Sentence Transformers.
+- 🌿 **[cohere-ai/cohere-developer-experience #799](https://github.com/cohere-ai/cohere-developer-experience/pull/799)** — Zero-cloud hybrid RAG recipe with SQLite FTS5 and Cohere Rerank v3.5.
+- ▲ **[vercel/ai #19536](https://github.com/vercel/ai/pull/19536)** — Next.js SQLite FTS5 local hybrid RAG recipe for Vercel AI SDK.
+- 🦙 **[ollama/ollama-python #721](https://github.com/ollama/ollama-python/pull/721)** — Zero-cloud local hybrid RAG recipe with SQLite FTS5 and Ollama embeddings.
 
 ---
 
