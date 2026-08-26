@@ -12,7 +12,7 @@
 
 ### 💡 About Me
 
-- 🏆 **Official Microsoft Open Source Contributor** — Ranked **#4 Top Contributor** on [microsoft/PhiCookBook](https://github.com/microsoft/PhiCookBook/graphs/contributors) for architecting zero-cloud local hybrid RAG recipes with `phi-4-mini` and SQLite FTS5.
+- 🏆 **Official Microsoft Open Source Contributor** — Contributed to [microsoft/PhiCookBook](https://github.com/microsoft/PhiCookBook) for architecting zero-cloud local hybrid RAG recipes with `phi-4-mini` and SQLite FTS5.
 - 🤖 **AI Intern @ Microsoft** (AI Innovators Summer Program) — Engineered privacy-first Local RAG architectures using the **Microsoft Foundry Local SDK**, dense embeddings, SQLite FTS5 BM25 hybrid retrieval (RRF), and real-time SSE streaming.
 - ⚡ **Ex-Frontend Intern @ TurkNet** — Developed and optimized production user interfaces handling live customer traffic with React, Next.js, TypeScript, and Redux Toolkit.
 - 🧩 **Clean Architecture & Web Performance** — Specialized in client-side telemetry, Web Workers offloading, AST lexing, custom React hook design systems, and on-device SLM inference.
@@ -61,7 +61,7 @@
 
 ### 🌐 Open Source Contributions & Recipes
 
-- 🏛️ **[microsoft/PhiCookBook #571](https://github.com/microsoft/PhiCookBook/pull/571)** — Official Contributor (**Rank #4**): Added zero-cloud local hybrid RAG recipe with SQLite FTS5 and `phi-4-mini`.
+- 🏛️ **[microsoft/PhiCookBook #571](https://github.com/microsoft/PhiCookBook/pull/571)** — Official Contributor: Added zero-cloud local hybrid RAG recipe with SQLite FTS5 and `phi-4-mini`.
 - 🔷 **[google-gemini/cookbook #1347](https://github.com/google-gemini/cookbook/pull/1347)** — Authored zero-cloud local hybrid RAG recipe with SQLite FTS5 and Gemini 2.5/3.7 (`google-genai` SDK).
 - ▲ **[vercel/ai #19536](https://github.com/vercel/ai/pull/19536)** — Authored Next.js SQLite FTS5 local hybrid RAG recipe for Vercel AI SDK.
 - 🌿 **[cohere-ai/cohere-developer-experience #799](https://github.com/cohere-ai/cohere-developer-experience/pull/799)** — Authored zero-cloud hybrid RAG with SQLite FTS5 and Cohere Rerank v3.5.
