@@ -29,7 +29,7 @@
 | **Frontend Architecture** | React 19, Next.js (App Router), TypeScript (Strict), Redux Toolkit, Web Workers, Vite, Tailwind CSS, PWA, Vitest |
 | **Backend & Databases** | Python, FastAPI, Node.js (v22/v24), Express, RESTful APIs, SQLite (FTS5 BM25), PostgreSQL, MongoDB |
 | **AI & Retrieval Systems** | Hybrid RAG, Okapi BM25 ($k_1=1.5, b=0.75$), Reciprocal Rank Fusion ($k=60$), Microsoft Foundry Local SDK, Google GenAI SDK, Dense Embeddings, RAG Benchmarking |
-| **DevOps & Tooling** | GitHub Actions SDK, `@vercel/ncc` Bundling, Docker, Docker Compose, CI/CD Matrix Testing, Rollup Chunking, Git, Postman, Figma |
+| **DevOps & Multi-Repo CI/CD** | GitHub Actions SDK, `@vercel/ncc` Bundling, Zenith Sentinel (Autonomous Multi-Repo Watcher), Docker, Docker Compose, CI/CD Matrix Testing, Git |
 
 ---
 
@@ -39,7 +39,14 @@
 > **GitHub Marketplace • Node.js 24 • @vercel/ncc • Okapi BM25 • Dense Vectors • RRF Fusion • Phi-4**
 > - **Production-Grade GitHub Action:** Automates repository triage using a hybrid RAG pipeline fusing Okapi BM25 keyword scoring with dense semantic embeddings via Reciprocal Rank Fusion ($k=60$).
 > - **Deterministic Line-Span Grounding:** Implements markdown AST-aware chunking to output verified citations (`[file#L<start>-L<end>]`), packaged into a single zero-dependency bundle via `@vercel/ncc`.
-> - **Marketplace Listing:** [Hybrid RAG Issue & PR Assistant](https://github.com/marketplace/actions/hybrid-rag-issue-pr-assistant)
+> - **Official Marketplace Listing:** [Hybrid RAG Issue & PR Assistant](https://github.com/marketplace/actions/hybrid-rag-issue-pr-assistant)
+> - **Ecosystem Integrations:** Native adapters for LangChain, LlamaIndex, Dify, Haystack, and DSPy.
+
+#### 🏛️ [Zenith Sentinel — Autonomous Multi-Repo Workspace Orchestrator](https://github.com/Cagrik34/hybrid-rag-action)
+> **Python • Native OS Events • 15s Debounce • Zero-Conflict Git Guard • Cloud Cron Matrix**
+> - **Multi-Repo Auto-Discovery:** Monitors `My Projects` and `Open Source Projects` (17+ repos) dynamically with zero CPU overhead.
+> - **Autonomous Health & Sync:** Auto-detects tech stacks (Node, Python, Rust, Go), executes debounced pre-flight verification, and synchronizes upstream AI cookbooks with automated conflict isolation.
+> - **Cloud Sunday Sentinel:** Autonomous cloud cron runner testing framework compatibility every Sunday at 00:00 UTC with automated GitHub Issue alerts.
 
 #### 🌐 [Zenith Nexus — High-Performance Developer Intelligence & Workflow OS](https://github.com/Cagrik34/zenith-nexus)
 > **React 19 • TypeScript 5.8 • Vite 6 • Web Workers • AST Parser • SQLite FTS5 • Vitest • Zero-Cloud**
@@ -66,8 +73,23 @@
 
 ---
 
-### 🌐 Open Source Contributions & AI Recipes (10 Global Repositories)
+### 🌐 Major AI Framework & Ecosystem Contributions (19 Repositories)
 
+#### 🤖 Tier-2: Core AI & Orchestration Frameworks
+- 🦜🔗 **[langchain-ai/langchain #39965](https://github.com/langchain-ai/langchain/pull/39965)** — Contributed Hybrid RAG Action integration for automated repository triage.
+- 🦙 **[run-llama/llama_index #22853](https://github.com/run-llama/llama_index/pull/22853)** — Contributed Hybrid RAG Action to LlamaIndex community showcase.
+- ⚡ **[langgenius/dify #41411](https://github.com/langgenius/dify/pull/41411)** — Contributed Hybrid RAG Action to Dify ecosystem tools.
+- 🌾 **[deepset-ai/haystack #12494](https://github.com/deepset-ai/haystack/pull/12494)** — Contributed Haystack Hybrid RAG pipeline component.
+- 🎓 **[stanfordnlp/dspy #10287](https://github.com/stanfordnlp/dspy/pull/10287)** — Contributed DSPy Hybrid RAG module to community showcase.
+
+#### 📚 Tier-1: Curated Lists & Developer Tooling
+- ⭐ **[sdras/awesome-actions #915](https://github.com/sdras/awesome-actions/pull/915)** — Official listing in Sarah Drasner's Awesome Actions catalog.
+- 🔍 **[Danielskry/Awesome-RAG #149](https://github.com/Danielskry/Awesome-RAG/pull/149)** — Added Hybrid RAG Action to Awesome-RAG framework directory.
+- 🚀 **[brandonhimpfen/awesome-github-actions #32](https://github.com/brandonhimpfen/awesome-github-actions/pull/32)** — Added to Awesome GitHub Actions automation tools.
+- 📖 **[coree/awesome-rag #34](https://github.com/coree/awesome-rag/pull/34)** — Added to Awesome RAG Tools.
+- 💬 **[GitHub Community Discussion #205923](https://github.com/community/community/discussions/205923)** — Author of technical deep-dive on deterministic BM25 + Dense Semantic Fusion.
+
+#### 🏛️ Global AI Cookbooks & Reference Recipes (10 Global Repositories)
 - 🏛️ **[microsoft/PhiCookBook #571](https://github.com/microsoft/PhiCookBook/pull/571)** — **Merged Official Contributor**: Zero-cloud local hybrid RAG recipe with SQLite FTS5 and `phi-4-mini`.
 - 🔷 **[google-gemini/cookbook #1347](https://github.com/google-gemini/cookbook/pull/1347)** — Zero-cloud local hybrid RAG recipe with SQLite FTS5 and Gemini 2.5/3.7 (`google-genai` SDK).
 - 💎 **[google-gemma/cookbook #426](https://github.com/google-gemma/cookbook/pull/426)** — Zero-cloud on-device hybrid RAG recipe with SQLite FTS5 and Gemma 2.
