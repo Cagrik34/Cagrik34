@@ -3,21 +3,22 @@
 
   <h1>Hi there, I'm Çağrı Giray Keşan 👋</h1>
 
-  <h3>Frontend-Heavy Full-Stack & AI Engineer | React 19, TypeScript, Next.js | Python, FastAPI | Microsoft Open Source Contributor</h3>
+  <h3>Full-Stack & AI Systems Engineer | React 19, TypeScript, Next.js | Python, FastAPI | Microsoft Open Source Contributor</h3>
 
-  <p>I build high-performance, client-side web architectures and integrate modern full-stack systems with <strong>local Retrieval-Augmented Generation (RAG)</strong>, <strong>AST codebase topologies</strong>, and <strong>structured quantitative</strong> workflows.</p>
+  <p>I architect high-performance client-side web applications, standalone developer tools, and hybrid Retrieval-Augmented Generation (RAG) pipelines with deterministic grounding and AST codebase indexing.</p>
 </div>
 
 ---
 
 ### 💡 About Me
 
-- 🏆 **Official Microsoft Open Source Contributor** — Contributed to [microsoft/PhiCookBook](https://github.com/microsoft/PhiCookBook) for architecting zero-cloud local hybrid RAG recipes with `phi-4-mini` and SQLite FTS5.
-- 🤖 **AI Intern @ Microsoft** (AI Innovators Summer Program) — Engineered privacy-first Local RAG architectures using the **Microsoft Foundry Local SDK**, dense embeddings, SQLite FTS5 BM25 hybrid retrieval (RRF), and real-time SSE streaming.
+- 🏆 **Official Microsoft Open Source Contributor** — Contributed production zero-cloud local hybrid RAG recipes to [microsoft/PhiCookBook](https://github.com/microsoft/PhiCookBook) leveraging `phi-4-mini` and SQLite FTS5.
+- 📦 **GitHub Developer Program Member** — Author of [Hybrid RAG Issue & PR Assistant](https://github.com/marketplace/actions/hybrid-rag-issue-pr-assistant), an official marketplace GitHub Action for deterministic lexical and dense semantic repository triage.
+- 🤖 **AI Intern @ Microsoft** (AI Innovators Summer Program) — Engineered local RAG systems using Microsoft Foundry Local SDK, dense vector embeddings, SQLite FTS5 BM25 hybrid retrieval (RRF), and real-time SSE streaming.
 - ⚡ **Ex-Frontend Intern @ TurkNet** — Developed and optimized production user interfaces handling live customer traffic with React, Next.js, TypeScript, and Redux Toolkit.
-- 🧩 **Clean Architecture & Web Performance** — Specialized in client-side telemetry, Web Workers offloading, AST lexing, custom React hook design systems, and on-device SLM inference.
-- 🏅 **Global Leadership & Problem Solving** — Graduate of **McKinsey.org Forward Program** (MECE framework & strategic communication) & Global Finalist at **Aspire Leaders Program** (Harvard-founded).
-- 🎓 **Education** — Studying Web Design & Coding at Istanbul University | Computer Programming Graduate from Istanbul Beykent University (3.61/4.00 GPA).
+- 🧩 **Systems Architecture & Performance** — Specialized in client-side telemetry, Web Workers concurrency, AST lexing, standalone `@vercel/ncc` packaging, and on-device SLM inference.
+- 🏅 **Leadership & Structured Problem Solving** — Graduate of **McKinsey.org Forward Program** (MECE framework & strategic communication) & Global Finalist at **Aspire Leaders Program** (Harvard-founded).
+- 🎓 **Education** — Web Design & Coding at Istanbul University | Computer Programming Graduate from Istanbul Beykent University (3.61/4.00 GPA).
 
 ---
 
@@ -26,36 +27,42 @@
 | Domain | Technologies & Tools |
 | :--- | :--- |
 | **Frontend Architecture** | React 19, Next.js (App Router), TypeScript (Strict), Redux Toolkit, Web Workers, Vite, Tailwind CSS, PWA, Vitest |
-| **Backend & Databases** | Python, FastAPI, Node.js, Express, RESTful APIs, SQLite (FTS5 BM25), PostgreSQL, MongoDB |
-| **AI & Intelligent Systems** | Local RAG, Microsoft Foundry Local SDK (`phi-4-mini`, `qwen3-embedding`), Google GenAI SDK, Reciprocal Rank Fusion (RRF), RAG Evaluation, faster-whisper |
-| **DevOps & Engineering** | Docker, Docker Compose, GitHub Actions (CI/CD), Rollup Chunking, Git, Postman, Figma, Agile/Scrum, MECE Framework |
+| **Backend & Databases** | Python, FastAPI, Node.js (v22/v24), Express, RESTful APIs, SQLite (FTS5 BM25), PostgreSQL, MongoDB |
+| **AI & Retrieval Systems** | Hybrid RAG, Okapi BM25 ($k_1=1.5, b=0.75$), Reciprocal Rank Fusion ($k=60$), Microsoft Foundry Local SDK, Google GenAI SDK, Dense Embeddings, RAG Benchmarking |
+| **DevOps & Tooling** | GitHub Actions SDK, `@vercel/ncc` Bundling, Docker, Docker Compose, CI/CD Matrix Testing, Rollup Chunking, Git, Postman, Figma |
 
 ---
 
 ### 📌 Featured Projects
 
+#### 🚀 [Hybrid RAG Issue & PR Assistant — GitHub Action](https://github.com/Cagrik34/hybrid-rag-action)
+> **GitHub Marketplace • Node.js 24 • @vercel/ncc • Okapi BM25 • Dense Vectors • RRF Fusion • Phi-4**
+> - **Production-Grade GitHub Action:** Automates repository triage using a hybrid RAG pipeline fusing Okapi BM25 keyword scoring with dense semantic embeddings via Reciprocal Rank Fusion ($k=60$).
+> - **Deterministic Line-Span Grounding:** Implements markdown AST-aware chunking to output verified citations (`[file#L<start>-L<end>]`), packaged into a single zero-dependency bundle via `@vercel/ncc`.
+> - **Marketplace Listing:** [Hybrid RAG Issue & PR Assistant](https://github.com/marketplace/actions/hybrid-rag-issue-pr-assistant)
+
 #### 🌐 [Zenith Nexus — High-Performance Developer Intelligence & Workflow OS](https://github.com/Cagrik34/zenith-nexus)
 > **React 19 • TypeScript 5.8 • Vite 6 • Web Workers • AST Parser • SQLite FTS5 • Vitest • Zero-Cloud**
-> - **100% Client-Side Air-Gapped Cockpit:** Interactive developer operating system featuring **RepoSense** (real-time AST codebase topology at 120 FPS), **DevForge** (JSON-to-TS/Zod, cURL translator, WASM sandbox), and **MindVault** (sub-5ms SQLite FTS5 BM25 note search).
-> - **Fault-Tolerant Resilience:** Integrated production React 19 Error Boundary, sub-vendor Rollup manual chunking (17.9 kB main gzip), and 100% automated Vitest unit & benchmark test coverage.
+> - **100% Client-Side Air-Gapped Cockpit:** Developer operating system featuring **RepoSense** (real-time AST codebase topology at 120 FPS), **DevForge** (JSON-to-TS/Zod, cURL translator, WASM sandbox), and **MindVault** (sub-5ms SQLite FTS5 BM25 note search).
+> - **Fault-Tolerant Resilience:** Production React 19 Error Boundary architecture, sub-vendor Rollup chunking (17.9 kB main gzip), and 100% automated Vitest unit & benchmark coverage.
 > - **Live Demo:** [https://cagrik34.github.io/zenith-nexus/](https://cagrik34.github.io/zenith-nexus/)
 
 #### ⚡ [Zenith AI — Privacy-Preserving Local RAG Assistant](https://github.com/Cagrik34/microsoft-foundry-local-rag-assistant)
 > **Python • React 18 • TypeScript • FastAPI • Foundry Local SDK • phi-4-mini • SQLite FTS5 • Docker**
-> - **100% Offline Local RAG:** Executes `phi-4-mini` (3.8B) and `qwen3-embedding-0.6b` (1024-d) on local hardware with zero external API fees and zero cloud data egress.
-> - **Hybrid Search (Dense + BM25 via RRF):** Fuses 1024-d dense vectors with SQLite FTS5 BM25 using Reciprocal Rank Fusion ($k=60$).
-> - **Clean Architecture & Evaluation:** Modular frontend with custom React hooks (`useSessions`, `useChatStream`), automated Docker CI/CD, and **89.4% composite quality score** across RAG evaluation benchmarks.
+> - **100% Offline Local RAG:** Executes `phi-4-mini` (3.8B) and `qwen3-embedding-0.6b` (1024-d) locally with zero external API dependency and zero cloud data egress.
+> - **Hybrid Search Engine:** Fuses dense embeddings with SQLite FTS5 BM25 using Reciprocal Rank Fusion ($k=60$) with an **89.4% composite quality score** across RAG evaluation benchmarks.
+> - **Repository:** [microsoft-foundry-local-rag-assistant](https://github.com/Cagrik34/microsoft-foundry-local-rag-assistant)
 
 #### 🌌 [Zenith Atlas — High-Performance Financial Analytics Terminal](https://github.com/Cagrik34/zenith-atlas)
 > **React 19 • TypeScript 5.8 • Vite 6 • Web Workers • PWA • Client-Side Memory Architecture**
-> - **Client-Side Financial Telemetry:** High-performance browser-native terminal processing real-time telemetry across **1,051 TEFAS mutual funds** and market indicators natively in browser memory.
-> - **Hardware-Accelerated Execution:** Dedicated Web Workers executing risk attribution and quantitative modeling (Black-Litterman, Monte Carlo, HRP) with 60 FPS Canvas rendering and automated 4-page A4 PDF financial reporting.
+> - **Client-Side Financial Telemetry:** High-performance browser terminal computing quantitative metrics across **1,051 TEFAS mutual funds** and market benchmarks natively in memory.
+> - **Concurrent Execution:** Dedicated Web Workers running Black-Litterman, Monte Carlo, and HRP risk models with 60 FPS Canvas rendering and automated 4-page A4 PDF reporting.
 > - **Live Demo:** [https://cagrik34.github.io/zenith-atlas/](https://cagrik34.github.io/zenith-atlas/)
 
 #### 👁️ [Real-Time Face Emotion & Intensity System](https://github.com/Cagrik34/RealTime-Face-Emotion-Recognition)
 > **Python • TensorFlow/Keras • OpenCV • Tkinter • SQLite**
 > - End-to-end computer vision desktop application utilizing dynamic thresholding to classify **13 distinct emotional intensity levels** in real time.
-> - Features a modular architecture with live Tkinter GUI telemetry and SQLite session data logging to demonstrate adaptive UI/UX behaviors.
+> - Modular architecture with live Tkinter GUI telemetry and SQLite session data logging for adaptive UI/UX feedback.
 
 ---
 
@@ -89,7 +96,3 @@
   <a href="https://www.linkedin.com/in/cagrigiraykesan" target="_blank"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo" /></a>
   <a href="mailto:cagrigiraykesan@gmail.com" target="_blank"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="gmail logo" /></a>
 </p>
-
-<br />
-
-_Building modern web interfaces where full-stack engineering meets AI-driven interaction._
