@@ -22,6 +22,8 @@ on:
           - 'cohere-developer-experience'
           - 'vercel-ai'
           - 'ollama-python'
+          - 'awesome-actions'
+          - 'awesome-rag'
 
 permissions:
   contents: write
@@ -49,7 +51,9 @@ jobs:
               { name: 'cookbook', upstream: 'huggingface/cookbook', branch: 'main' },
               { name: 'cohere-developer-experience', upstream: 'cohere-ai/cohere-developer-experience', branch: 'main' },
               { name: 'vercel-ai', upstream: 'vercel/ai', branch: 'main' },
-              { name: 'ollama-python', upstream: 'ollama/ollama-python', branch: 'main' }
+              { name: 'ollama-python', upstream: 'ollama/ollama-python', branch: 'main' },
+              { name: 'awesome-actions', upstream: 'sdras/awesome-actions', branch: 'main' },
+              { name: 'awesome-rag', upstream: 'coree/awesome-rag', branch: 'master' }
             ];
 
             const selectedTarget = context.payload.inputs?.target_repo || 'all';
