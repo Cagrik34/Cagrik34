@@ -10,15 +10,51 @@
 
 ---
 
+### :hammer_and_wrench: Languages and Tools :
+<div>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" title="React" alt="React" width="40" height="40"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" title="TypeScript" alt="TypeScript" width="40" height="40"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" title="Next.js" alt="Next.js" width="40" height="40"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" title="Python" alt="Python" width="40" height="40"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" title="FastAPI" alt="FastAPI" width="40" height="40"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" title="NodeJS" alt="NodeJS" width="40" height="40"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg" title="SQLite" alt="SQLite" width="40" height="40"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" title="PostgreSQL" alt="PostgreSQL" width="40" height="40"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" title="Docker" alt="Docker" width="40" height="40"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original-wordmark.svg" title="Git" alt="Git" width="40" height="40"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" title="GitHub" alt="GitHub" width="40" height="40"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" title="VSCode" alt="VSCode" width="40" height="40"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" title="Tailwind CSS" alt="Tailwind CSS" width="40" height="40"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vitejs/vitejs-original.svg" title="Vite" alt="Vite" width="40" height="40"/>&nbsp;
+</div>
+
+---
+
+### :fire: My Stats :
+
+[![Çağrı Giray Keşan's GitHub Stats](https://github-readme-stats-anuraghazra1.vercel.app/api?username=Cagrik34&count_private=true)](https://github.com/Cagrik34)
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=Cagrik34&theme=highcontrast)](https://github.com/Cagrik34)
+
+---
+
 ### 💡 About Me
 
-- 🏆 **Official Microsoft Open Source Contributor** — Contributed production zero-cloud local hybrid RAG recipes to [microsoft/PhiCookBook](https://github.com/microsoft/PhiCookBook) leveraging `phi-4-mini` and SQLite FTS5.
+- 🏆 **Official Microsoft Open Source Contributor** — Contributed production zero-cloud local hybrid RAG recipes to [microsoft/PhiCookBook](https://github.com/microsoft/PhiCookBook) leveraging `phi-4-mini` and SQLite FTS5 (Merged in PR [#571](https://github.com/microsoft/PhiCookBook/pull/571)).
 - 📦 **GitHub Developer Program Member** — Author of [Hybrid RAG Issue & PR Assistant](https://github.com/marketplace/actions/hybrid-rag-issue-pr-assistant), an official marketplace GitHub Action for deterministic lexical and dense semantic repository triage.
 - 🤖 **AI Intern @ Microsoft** (AI Innovators Summer Program) — Engineered local RAG systems using Microsoft Foundry Local SDK, dense vector embeddings, SQLite FTS5 BM25 hybrid retrieval (RRF), and real-time SSE streaming.
 - ⚡ **Ex-Frontend Intern @ TurkNet** — Developed and optimized production user interfaces handling live customer traffic with React, Next.js, TypeScript, and Redux Toolkit.
 - 🧩 **Systems Architecture & Performance** — Specialized in client-side telemetry, Web Workers concurrency, AST lexing, standalone `@vercel/ncc` packaging, and on-device SLM inference.
 - 🏅 **Leadership & Structured Problem Solving** — Graduate of **McKinsey.org Forward Program** (MECE framework & strategic communication) & Global Finalist at **Aspire Leaders Program** (Harvard-founded).
 - 🎓 **Education** — Web Design & Coding at Istanbul University | Computer Programming Graduate from Istanbul Beykent University (3.61/4.00 GPA).
+
+---
+
+### 📰 Engineering Publications & Technical Deep-Dives
+
+- 📖 **[Medium Deep-Dive: I Ditched Cloud Vector Databases for SQLite FTS5, and My RAG Pipeline Got 10x Better](https://medium.com/@cagrigiraykesan/i-ditched-cloud-vector-databases-for-sqlite-fts5-and-my-rag-pipeline-got-10x-better-05b79764adad)** — Architectural analysis of semantic failure modes in code search, BM25 + Dense embedding trade-offs, and Reciprocal Rank Fusion ($k=60$) mathematics.
+- 📖 **[DEV.to Edition: I Ditched Cloud Vector Databases for SQLite FTS5](https://dev.to/cagrik34/i-ditched-cloud-vector-databases-for-sqlite-fts5-and-my-rag-pipeline-got-10x-better-759)** — Developer-oriented breakdown on eliminating cloud database costs and latency using embedded SQLite FTS5 in RAG pipelines.
+- 💬 **[GitHub Community Discussion #205923](https://github.com/community/community/discussions/205923)** — Technical deep-dive on deterministic BM25 and dense semantic fusion for repository issue and PR triage.
 
 ---
 
@@ -29,7 +65,7 @@
 | **Frontend Architecture** | React 19, Next.js (App Router), TypeScript (Strict), Redux Toolkit, Web Workers, Vite, Tailwind CSS, PWA, Vitest |
 | **Backend & Databases** | Python, FastAPI, Node.js (v22/v24), Express, RESTful APIs, SQLite (FTS5 BM25), PostgreSQL, MongoDB |
 | **AI & Retrieval Systems** | Hybrid RAG, Okapi BM25 ($k_1=1.5, b=0.75$), Reciprocal Rank Fusion ($k=60$), Microsoft Foundry Local SDK, Google GenAI SDK, Dense Embeddings, RAG Benchmarking |
-| **DevOps & Multi-Repo CI/CD** | GitHub Actions SDK, `@vercel/ncc` Bundling, Zenith Sentinel (Autonomous Multi-Repo Watcher), Docker, Docker Compose, CI/CD Matrix Testing, Git |
+| **DevOps & Multi-Repo CI/CD** | GitHub Actions SDK, `@vercel/ncc` Bundling, Multi-Repo CI/CD Matrix, Docker, Docker Compose, Git |
 
 ---
 
@@ -39,14 +75,9 @@
 > **GitHub Marketplace • Node.js 24 • @vercel/ncc • Okapi BM25 • Dense Vectors • RRF Fusion • Phi-4**
 > - **Production-Grade GitHub Action:** Automates repository triage using a hybrid RAG pipeline fusing Okapi BM25 keyword scoring with dense semantic embeddings via Reciprocal Rank Fusion ($k=60$).
 > - **Deterministic Line-Span Grounding:** Implements markdown AST-aware chunking to output verified citations (`[file#L<start>-L<end>]`), packaged into a single zero-dependency bundle via `@vercel/ncc`.
+> - **Autonomous Sunday Sentinel:** Features cloud cron automation (`ecosystem-sentinel.yml`) verifying multi-framework compatibility across Python 3.11/3.12 with automated issue triage.
 > - **Official Marketplace Listing:** [Hybrid RAG Issue & PR Assistant](https://github.com/marketplace/actions/hybrid-rag-issue-pr-assistant)
 > - **Ecosystem Integrations:** Native adapters for LangChain, LlamaIndex, Dify, Haystack, and DSPy.
-
-#### 🏛️ [Zenith Sentinel — Autonomous Multi-Repo Workspace Orchestrator](https://github.com/Cagrik34/hybrid-rag-action)
-> **Python • Native OS Events • 15s Debounce • Zero-Conflict Git Guard • Cloud Cron Matrix**
-> - **Multi-Repo Auto-Discovery:** Monitors `My Projects` and `Open Source Projects` (17+ repos) dynamically with zero CPU overhead.
-> - **Autonomous Health & Sync:** Auto-detects tech stacks (Node, Python, Rust, Go), executes debounced pre-flight verification, and synchronizes upstream AI cookbooks with automated conflict isolation.
-> - **Cloud Sunday Sentinel:** Autonomous cloud cron runner testing framework compatibility every Sunday at 00:00 UTC with automated GitHub Issue alerts.
 
 #### 🌐 [Zenith Nexus — High-Performance Developer Intelligence & Workflow OS](https://github.com/Cagrik34/zenith-nexus)
 > **React 19 • TypeScript 5.8 • Vite 6 • Web Workers • AST Parser • SQLite FTS5 • Vitest • Zero-Cloud**
