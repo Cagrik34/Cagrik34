@@ -32,7 +32,7 @@
 
 ### :fire: My Stats :
 
-[![Çağrı Giray Keşan's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Cagrik34&count_private=true&show_icons=true&title_color=e6f1ff&text_color=bcd0e6&icon_color=4aa8ff&bg_color=0a0f1a&border_color=1c2a3a)](https://github.com/Cagrik34)
+[![Çağrı Giray Keşan's GitHub Stats](https://github-readme-stats-anuraghazra1.vercel.app/api?username=Cagrik34&count_private=true&show_icons=true&title_color=e6f1ff&text_color=bcd0e6&icon_color=4aa8ff&bg_color=0a0f1a&border_color=1c2a3a)](https://github.com/Cagrik34)
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=Cagrik34&background=0D1117&border=30363D&stroke=30363D&ring=FF8C00&fire=FF8C00&currStreakNum=FF8C00&currStreakLabel=FF8C00&sideNums=38BDF8&sideLabels=38BDF8&dates=94A3B8&border_radius=8)](https://github.com/Cagrik34)
 
