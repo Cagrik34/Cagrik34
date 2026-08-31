@@ -34,7 +34,7 @@
 
 [![Çağrı Giray Keşan's GitHub Stats](https://github-readme-stats-anuraghazra1.vercel.app/api?username=Cagrik34&count_private=true)](https://github.com/Cagrik34)
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=Cagrik34&theme=highcontrast)](https://github.com/Cagrik34)
+[![GitHub Streak](https://streak-stats.demolab.com?user=Cagrik34&background=0D1117&border=30363D&stroke=30363D&ring=FF8C00&fire=FF8C00&currStreakNum=FF8C00&currStreakLabel=FF8C00&sideNums=E683D9&sideLabels=E683D9&dates=75EEB2&border_radius=8)](https://github.com/Cagrik34)
 
 ---
 
