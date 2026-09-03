@@ -24,6 +24,15 @@ on:
           - 'ollama-python'
           - 'awesome-actions'
           - 'awesome-rag'
+          - 'awesome-sre'
+          - 'awesome-ai-agents'
+          - 'Awesome-LLM'
+          - 'Awesome-RAG'
+          - 'dspy'
+          - 'dify'
+          - 'llama_index'
+          - 'RAG_Techniques'
+          - 'GenAI_Agents'
 
 permissions:
   contents: write
@@ -53,7 +62,16 @@ jobs:
               { name: 'vercel-ai', upstream: 'vercel/ai', branch: 'main' },
               { name: 'ollama-python', upstream: 'ollama/ollama-python', branch: 'main' },
               { name: 'awesome-actions', upstream: 'sdras/awesome-actions', branch: 'main' },
-              { name: 'awesome-rag', upstream: 'coree/awesome-rag', branch: 'master' }
+              { name: 'awesome-rag', upstream: 'coree/awesome-rag', branch: 'master' },
+              { name: 'awesome-sre', upstream: 'dastergon/awesome-sre', branch: 'master' },
+              { name: 'awesome-ai-agents', upstream: 'e2b-dev/awesome-ai-agents', branch: 'main' },
+              { name: 'Awesome-LLM', upstream: 'Hannibal046/Awesome-LLM', branch: 'main' },
+              { name: 'Awesome-RAG', upstream: 'Danielskry/Awesome-RAG', branch: 'main' },
+              { name: 'dspy', upstream: 'stanfordnlp/dspy', branch: 'main' },
+              { name: 'dify', upstream: 'langgenius/dify', branch: 'main' },
+              { name: 'llama_index', upstream: 'run-llama/llama_index', branch: 'main' },
+              { name: 'RAG_Techniques', upstream: 'NirDiamant/RAG_Techniques', branch: 'main' },
+              { name: 'GenAI_Agents', upstream: 'NirDiamant/GenAI_Agents', branch: 'main' }
             ];
 
             const selectedTarget = context.payload.inputs?.target_repo || 'all';
