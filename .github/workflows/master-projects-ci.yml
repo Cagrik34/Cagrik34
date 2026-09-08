@@ -31,12 +31,12 @@ jobs:
     if: ${{ github.event.inputs.target_project == 'all' || github.event.inputs.target_project == 'zenith-nexus' || github.event_name != 'workflow_dispatch' }}
     steps:
       - name: 📥 Checkout Zenith Nexus
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: ${{ github.repository_owner }}/zenith-nexus
 
       - name: ⚙️ Setup Node.js 22 LTS
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: 22
           cache: 'npm'
@@ -66,12 +66,12 @@ jobs:
     if: ${{ github.event.inputs.target_project == 'all' || github.event.inputs.target_project == 'zenith-atlas' || github.event_name != 'workflow_dispatch' }}
     steps:
       - name: 📥 Checkout Zenith Atlas
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: ${{ github.repository_owner }}/zenith-atlas
 
       - name: ⚙️ Setup Node.js 22 LTS
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: 22
           cache: 'npm'
@@ -98,17 +98,17 @@ jobs:
     if: ${{ github.event.inputs.target_project == 'all' || github.event.inputs.target_project == 'microsoft-foundry-local-rag-assistant' || github.event_name != 'workflow_dispatch' }}
     steps:
       - name: 📥 Checkout Zenith AI
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: ${{ github.repository_owner }}/microsoft-foundry-local-rag-assistant
 
       - name: 🐍 Setup Python 3.11
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.11'
 
       - name: ⚙️ Setup Node.js 22 LTS
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: 22
 
@@ -138,12 +138,12 @@ jobs:
     if: ${{ github.event.inputs.target_project == 'all' || github.event.inputs.target_project == 'hybrid-rag-action' || github.event_name != 'workflow_dispatch' }}
     steps:
       - name: 📥 Checkout Hybrid RAG Action
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: ${{ github.repository_owner }}/hybrid-rag-action
 
       - name: ⚙️ Setup Node.js 22 LTS
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: 22
           cache: 'npm'
@@ -166,18 +166,18 @@ jobs:
     if: ${{ github.event.inputs.target_project == 'all' || github.event.inputs.target_project == 'python-utilities' || github.event_name != 'workflow_dispatch' }}
     steps:
       - name: 🐍 Setup Python 3.11
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.11'
 
       - name: 📥 Checkout euclidean-distance-calculator
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: ${{ github.repository_owner }}/euclidean-distance-calculator
           path: euclidean-distance-calculator
 
       - name: 📥 Checkout RealTime-Face-Emotion-Recognition
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: ${{ github.repository_owner }}/RealTime-Face-Emotion-Recognition
           path: RealTime-Face-Emotion-Recognition
