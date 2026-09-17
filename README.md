@@ -15,6 +15,7 @@
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" title="React" alt="React" width="40" height="40"/>&nbsp;
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" title="TypeScript" alt="TypeScript" width="40" height="40"/>&nbsp;
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" title="Next.js" alt="Next.js" width="40" height="40"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/threejs/threejs-original.svg" title="Three.js" alt="Three.js" width="40" height="40"/>&nbsp;
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" title="Python" alt="Python" width="40" height="40"/>&nbsp;
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" title="FastAPI" alt="FastAPI" width="40" height="40"/>&nbsp;
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" title="NodeJS" alt="NodeJS" width="40" height="40"/>&nbsp;
@@ -62,10 +63,10 @@
 
 | Domain | Technologies & Tools |
 | :--- | :--- |
-| **Frontend Architecture** | React 19, Next.js (App Router), TypeScript (Strict), Redux Toolkit, Web Workers, Vite, Tailwind CSS, PWA, Vitest |
-| **Backend & Databases** | Python, FastAPI, Node.js (v22/v24), Express, RESTful APIs, SQLite (FTS5 BM25), PostgreSQL, MongoDB |
+| **Frontend & Systems Architecture** | React 19, Next.js (App Router), TypeScript (Strict), Three.js (WebGL), Redux Toolkit, Web Workers, Vite, Tailwind CSS, PWA, Vitest |
+| **Backend & Databases** | Python, FastAPI, Node.js (v20/v22/v24), Express, RESTful APIs, SQLite (FTS5 BM25), PostgreSQL, MongoDB |
 | **AI & Retrieval Systems** | Hybrid RAG, Okapi BM25 ($k_1=1.5, b=0.75$), Reciprocal Rank Fusion ($k=60$), Microsoft Foundry Local SDK, Google GenAI SDK, Dense Embeddings, RAG Benchmarking |
-| **DevOps & Multi-Repo CI/CD** | GitHub Actions SDK, `@vercel/ncc` Bundling, Multi-Repo CI/CD Matrix, Docker, Docker Compose, Git |
+| **DevOps & Static Analysis** | GitHub Actions SDK, AST Static Lexing, Tarjan SCC Graph Algorithms, `@vercel/ncc` Bundling, Multi-Repo CI/CD Matrix, Docker, Git |
 
 ---
 
@@ -79,15 +80,23 @@
 > - **Official Marketplace Listing:** [Hybrid RAG Issue & PR Assistant](https://github.com/marketplace/actions/hybrid-rag-issue-pr-assistant)
 > - **Ecosystem Integrations:** Native adapters for LangChain, LlamaIndex, Dify, Haystack, and DSPy.
 
-#### 🌐 [Zenith Nexus — High-Performance Developer Intelligence & Workflow OS](https://github.com/Cagrik34/zenith-nexus)
+#### 🌉 [Zenith Istanbul — 3D Codebase Topology Visualizer & CI Gatekeeper](https://github.com/Cagrik34/zenith-istanbul)
+> **JavaScript (ESM) • Node.js Native • Three.js WebGL • Tarjan SCC • MITRE CWE Sentry • Zero-Dependency • Air-Gapped**
+> - **Interactive 3D Architectural Topology:** Statically analyzes JavaScript/TypeScript AST dependencies and maps modular graph topology into an interactive 3D spatial environment modeled after the Istanbul Bosphorus.
+> - **Tarjan SCC Cycle Solver & Contract Extractor:** Evaluates circular dependency chains in $O(V+E)$ time with zero external npm dependencies, synthesizing decoupled TypeScript contract interfaces (`types/*.contract.ts`) and standard Unified Git Diffs.
+> - **Security Boundary Sentry & CI Gatekeeper:** Audits architectural boundaries against MITRE CWE standards (CWE-668, CWE-200, CWE-798). Operates as a headless CI gatekeeper (`--fail-on-cycle --fail-on-leak`) with automated port collision fallback and standalone HTML report generation.
+> - **Local-First & Air-Gapped:** 100% client-side memory execution with zero cloud telemetry, bundled local Three.js r128, and local WOFF2 variable fonts. Verified by 48 automated native unit and integration tests.
+> - **Live Demo:** [https://cagrik34.github.io/zenith-istanbul/](https://cagrik34.github.io/zenith-istanbul/)
+
+#### 🌐 [Zenith Nexus — Local-First Developer Intelligence & Workflow System](https://github.com/Cagrik34/zenith-nexus)
 > **React 19 • TypeScript 5.8 • Vite 6 • Web Workers • AST Parser • SQLite FTS5 • Vitest • Zero-Cloud**
-> - **100% Client-Side Air-Gapped Cockpit:** Developer operating system featuring **RepoSense** (real-time AST codebase topology at 120 FPS), **DevForge** (JSON-to-TS/Zod, cURL translator, WASM sandbox), and **MindVault** (sub-5ms SQLite FTS5 BM25 note search).
+> - **Client-Side Isolated Architecture:** Developer platform featuring **RepoSense** (real-time AST codebase topology at 120 FPS), **DevForge** (JSON-to-TS/Zod, cURL translator, WASM sandbox), and **MindVault** (sub-5ms SQLite FTS5 BM25 note search).
 > - **Fault-Tolerant Resilience:** Production React 19 Error Boundary architecture, sub-vendor Rollup chunking (17.9 kB main gzip), and 100% automated Vitest unit & benchmark coverage.
 > - **Live Demo:** [https://cagrik34.github.io/zenith-nexus/](https://cagrik34.github.io/zenith-nexus/)
 
 #### ⚡ [Zenith AI — Privacy-Preserving Local RAG Assistant](https://github.com/Cagrik34/microsoft-foundry-local-rag-assistant)
 > **Python • React 18 • TypeScript • FastAPI • Foundry Local SDK • phi-4-mini • SQLite FTS5 • Docker**
-> - **100% Offline Local RAG:** Executes `phi-4-mini` (3.8B) and `qwen3-embedding-0.6b` (1024-d) locally with zero external API dependency and zero cloud data egress.
+> - **Offline Local RAG:** Executes `phi-4-mini` (3.8B) and `qwen3-embedding-0.6b` (1024-d) locally with zero external API dependency and zero cloud data egress.
 > - **Hybrid Search Engine:** Fuses dense embeddings with SQLite FTS5 BM25 using Reciprocal Rank Fusion ($k=60$) with an **89.4% composite quality score** across RAG evaluation benchmarks.
 > - **Repository:** [microsoft-foundry-local-rag-assistant](https://github.com/Cagrik34/microsoft-foundry-local-rag-assistant)
 
