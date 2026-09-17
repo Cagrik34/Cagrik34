@@ -41,7 +41,7 @@
 
 ### 💡 About Me
 
-- 🏆 **Official Microsoft Open Source Contributor** — Contributed production zero-cloud local hybrid RAG recipes to [microsoft/PhiCookBook](https://github.com/microsoft/PhiCookBook) leveraging `phi-4-mini` and SQLite FTS5 (Merged in PR [#571](https://github.com/microsoft/PhiCookBook/pull/571)).
+- 🏆 **Official Microsoft Open Source Contributor** — Contributed zero-cloud local hybrid RAG recipes to [microsoft/PhiCookBook](https://github.com/microsoft/PhiCookBook) leveraging `phi-4-mini` and SQLite FTS5 (Merged in PR [#571](https://github.com/microsoft/PhiCookBook/pull/571)).
 - 📦 **GitHub Developer Program Member** — Author of [Hybrid RAG Issue & PR Assistant](https://github.com/marketplace/actions/hybrid-rag-issue-pr-assistant), an official marketplace GitHub Action for deterministic lexical and dense semantic repository triage.
 - 🤖 **AI Intern @ Microsoft** (AI Innovators Summer Program) — Engineered local RAG systems using Microsoft Foundry Local SDK, dense vector embeddings, SQLite FTS5 BM25 hybrid retrieval (RRF), and real-time SSE streaming.
 - ⚡ **Ex-Frontend Intern @ TurkNet** — Developed and optimized production user interfaces handling live customer traffic with React, Next.js, TypeScript, and Redux Toolkit.
@@ -78,7 +78,6 @@
 > - **Deterministic Line-Span Grounding:** Implements markdown AST-aware chunking to output verified citations (`[file#L<start>-L<end>]`), packaged into a single zero-dependency bundle via `@vercel/ncc`.
 > - **Autonomous Sunday Sentinel:** Features cloud cron automation (`ecosystem-sentinel.yml`) verifying multi-framework compatibility across Python 3.11/3.12 with automated issue triage.
 > - **Official Marketplace Listing:** [Hybrid RAG Issue & PR Assistant](https://github.com/marketplace/actions/hybrid-rag-issue-pr-assistant)
-> - **Ecosystem Integrations:** Native adapters for LangChain, LlamaIndex, Dify, Haystack, and DSPy.
 
 #### 🌉 [Zenith Istanbul — 3D Codebase Topology Visualizer & CI Gatekeeper](https://github.com/Cagrik34/zenith-istanbul)
 > **JavaScript (ESM) • Node.js Native • Three.js WebGL • Tarjan SCC • MITRE CWE Sentry • Zero-Dependency • Air-Gapped**
@@ -113,33 +112,9 @@
 
 ---
 
-### 🌐 Major AI Framework & Ecosystem Contributions (19 Repositories)
+### 🏛️ Verified Open-Source Contributions
 
-#### 🤖 Tier-2: Core AI & Orchestration Frameworks
-- 🦜🔗 **[langchain-ai/langchain #39965](https://github.com/langchain-ai/langchain/pull/39965)** — Contributed Hybrid RAG Action integration for automated repository triage.
-- 🦙 **[run-llama/llama_index #22853](https://github.com/run-llama/llama_index/pull/22853)** — Contributed Hybrid RAG Action to LlamaIndex community showcase.
-- ⚡ **[langgenius/dify #41411](https://github.com/langgenius/dify/pull/41411)** — Contributed Hybrid RAG Action to Dify ecosystem tools.
-- 🌾 **[deepset-ai/haystack #12494](https://github.com/deepset-ai/haystack/pull/12494)** — Contributed Haystack Hybrid RAG pipeline component.
-- 🎓 **[stanfordnlp/dspy #10287](https://github.com/stanfordnlp/dspy/pull/10287)** — Contributed DSPy Hybrid RAG module to community showcase.
-
-#### 📚 Tier-1: Curated Lists & Developer Tooling
-- ⭐ **[sdras/awesome-actions #915](https://github.com/sdras/awesome-actions/pull/915)** — Official listing in Sarah Drasner's Awesome Actions catalog.
-- 🔍 **[Danielskry/Awesome-RAG #149](https://github.com/Danielskry/Awesome-RAG/pull/149)** — Added Hybrid RAG Action to Awesome-RAG framework directory.
-- 🚀 **[brandonhimpfen/awesome-github-actions #32](https://github.com/brandonhimpfen/awesome-github-actions/pull/32)** — Added to Awesome GitHub Actions automation tools.
-- 📖 **[coree/awesome-rag #34](https://github.com/coree/awesome-rag/pull/34)** — Added to Awesome RAG Tools.
-- 💬 **[GitHub Community Discussion #205923](https://github.com/community/community/discussions/205923)** — Author of technical deep-dive on deterministic BM25 + Dense Semantic Fusion.
-
-#### 🏛️ Global AI Cookbooks & Reference Recipes (10 Global Repositories)
-- 🏛️ **[microsoft/PhiCookBook #571](https://github.com/microsoft/PhiCookBook/pull/571)** — **Merged Official Contributor**: Zero-cloud local hybrid RAG recipe with SQLite FTS5 and `phi-4-mini`.
-- 🔷 **[google-gemini/cookbook #1347](https://github.com/google-gemini/cookbook/pull/1347)** — Zero-cloud local hybrid RAG recipe with SQLite FTS5 and Gemini 2.5/3.7 (`google-genai` SDK).
-- 💎 **[google-gemma/cookbook #426](https://github.com/google-gemma/cookbook/pull/426)** — Zero-cloud on-device hybrid RAG recipe with SQLite FTS5 and Gemma 2.
-- 🤖 **[anthropics/claude-cookbooks #847](https://github.com/anthropics/claude-cookbooks/pull/847)** — Zero-cloud local hybrid RAG recipe with SQLite FTS5 and Claude tool use.
-- 🦙 **[meta-llama/llama-cookbook #1074](https://github.com/meta-llama/llama-cookbook/pull/1074)** — On-device hybrid RAG recipe with SQLite FTS5 for Llama 3.2.
-- 🌪️ **[mistralai/cookbook #399](https://github.com/mistralai/cookbook/pull/399)** — Zero-cloud local hybrid RAG recipe with SQLite FTS5 for Mistral AI.
-- 🤗 **[huggingface/cookbook #368](https://github.com/huggingface/cookbook/pull/368)** — Zero-cloud local hybrid RAG recipe with SQLite FTS5 and Sentence Transformers.
-- 🌿 **[cohere-ai/cohere-developer-experience #799](https://github.com/cohere-ai/cohere-developer-experience/pull/799)** — Zero-cloud hybrid RAG recipe with SQLite FTS5 and Cohere Rerank v3.5.
-- ▲ **[vercel/ai #19536](https://github.com/vercel/ai/pull/19536)** — Next.js SQLite FTS5 local hybrid RAG recipe for Vercel AI SDK.
-- 🦙 **[ollama/ollama-python #721](https://github.com/ollama/ollama-python/pull/721)** — Zero-cloud local hybrid RAG recipe with SQLite FTS5 and Ollama embeddings.
+- 🏆 **[microsoft/PhiCookBook #571](https://github.com/microsoft/PhiCookBook/pull/571)** — **Merged Official Contributor**: Contributed a zero-cloud local hybrid RAG recipe combining SQLite FTS5 BM25 lexical search with `phi-4-mini` local inference via the Microsoft Foundry Local SDK.
 
 ---
 
