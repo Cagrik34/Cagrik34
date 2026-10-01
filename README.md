@@ -3,7 +3,7 @@
 
   <h1>Hi there, I'm Çağrı Giray Keşan 👋</h1>
 
-  <h3>Full-Stack & AI Systems Engineer | React 19, TypeScript, Next.js | Python, FastAPI | Microsoft Open Source Contributor</h3>
+  <h3>Full-Stack & AI Systems Engineer | React 19, TypeScript, Next.js | Python, FastAPI | Google & Microsoft Open Source Contributor</h3>
 
   <p>I architect high-performance client-side web applications, standalone developer tools, and hybrid Retrieval-Augmented Generation (RAG) pipelines with deterministic grounding and AST codebase indexing.</p>
 </div>
@@ -41,6 +41,7 @@
 
 ### 💡 About Me
 
+- 🔷 **Official Google Open Source Contributor** — Contributed a zero-cloud local hybrid RAG reference recipe to [google-gemini/cookbook](https://github.com/google-gemini/cookbook) combining SQLite FTS5 BM25, `gemini-embedding-001`, and the modern `google-genai` Interactions API (Merged in PR [#1347](https://github.com/google-gemini/cookbook/pull/1347)).
 - 🏆 **Official Microsoft Open Source Contributor** — Contributed zero-cloud local hybrid RAG recipes to [microsoft/PhiCookBook](https://github.com/microsoft/PhiCookBook) leveraging `phi-4-mini` and SQLite FTS5 (Merged in PR [#571](https://github.com/microsoft/PhiCookBook/pull/571)).
 - 📦 **GitHub Developer Program Member** — Author of [Hybrid RAG Issue & PR Assistant](https://github.com/marketplace/actions/hybrid-rag-issue-pr-assistant), an official marketplace GitHub Action for deterministic lexical and dense semantic repository triage.
 - 🤖 **AI Intern @ Microsoft** (AI Innovators Summer Program) — Engineered local RAG systems using Microsoft Foundry Local SDK, dense vector embeddings, SQLite FTS5 BM25 hybrid retrieval (RRF), and real-time SSE streaming.
@@ -105,15 +106,16 @@
 > - **Concurrent Execution:** Dedicated Web Workers running Black-Litterman, Monte Carlo, and HRP risk models with 60 FPS Canvas rendering and automated 4-page A4 PDF reporting.
 > - **Live Demo:** [https://cagrik34.github.io/zenith-atlas/](https://cagrik34.github.io/zenith-atlas/)
 
-#### 👁️ [Real-Time Face Emotion & Intensity System](https://github.com/Cagrik34/RealTime-Face-Emotion-Recognition)
+#### 👁️️ [Real-Time Face Emotion & Intensity System](https://github.com/Cagrik34/RealTime-Face-Emotion-Recognition)
 > **Python • TensorFlow/Keras • OpenCV • Tkinter • SQLite**
 > - End-to-end computer vision desktop application utilizing dynamic thresholding to classify **13 distinct emotional intensity levels** in real time.
 > - Modular architecture with live Tkinter GUI telemetry and SQLite session data logging for adaptive UI/UX feedback.
 
 ---
 
-### 🏛️ Verified Open-Source Contributions
+### 🏛️️ Verified Open-Source Contributions
 
+- 🔷 **[google-gemini/cookbook #1347](https://github.com/google-gemini/cookbook/pull/1347)** — **Merged Official Contributor**: Contributed a zero-cloud local hybrid RAG reference recipe combining SQLite FTS5 BM25 lexical search with dense embeddings (`gemini-embedding-001`), Reciprocal Rank Fusion ($k=60$), and grounded synthesis via the modern `google-genai` Interactions API.
 - 🏆 **[microsoft/PhiCookBook #571](https://github.com/microsoft/PhiCookBook/pull/571)** — **Merged Official Contributor**: Contributed a zero-cloud local hybrid RAG recipe combining SQLite FTS5 BM25 lexical search with `phi-4-mini` local inference via the Microsoft Foundry Local SDK.
 
 ---
