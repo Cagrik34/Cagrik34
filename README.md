@@ -1,137 +1,104 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Cagrik34/Cagrik34/main/github_banner.jpg" alt="Banner" width="100%" />
+  <img src="https://raw.githubusercontent.com/Cagrik34/Cagrik34/main/github_banner.jpg" alt="Çağrı Giray Keşan (Cagri Giray Kesan), Full-Stack & AI Systems Developer" width="100%" />
 
-  <h1>Hi there, I'm Çağrı Giray Keşan 👋</h1>
+  <h1>Çağrı Giray Keşan</h1>
 
-  <h3>Full-Stack & AI Systems Engineer | React 19, TypeScript, Next.js | Python, FastAPI | Google & Microsoft Open Source Contributor</h3>
+  <h3>Full-Stack & AI Systems Developer</h3>
 
-  <p>I architect high-performance client-side web applications, standalone developer tools, and hybrid Retrieval-Augmented Generation (RAG) pipelines with deterministic grounding and AST codebase indexing.</p>
+  <p>I build client-side web applications, developer tools, and hybrid retrieval-augmented generation (RAG) systems.<br/>My focus is deterministic grounding and local-first architecture.</p>
+
+  <p>Based in Istanbul · Open to full-time Software Engineer roles (hybrid or remote)</p>
 </div>
 
----
+## Tech Stack
 
-### :hammer_and_wrench: Languages and Tools :
 <div>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" title="React" alt="React" width="40" height="40"/>&nbsp;
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" title="TypeScript" alt="TypeScript" width="40" height="40"/>&nbsp;
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" title="Next.js" alt="Next.js" width="40" height="40"/>&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/threejs/threejs-original.svg" title="Three.js" alt="Three.js" width="40" height="40"/>&nbsp;
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" title="Python" alt="Python" width="40" height="40"/>&nbsp;
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" title="FastAPI" alt="FastAPI" width="40" height="40"/>&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" title="NodeJS" alt="NodeJS" width="40" height="40"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" title="Node.js" alt="Node.js" width="40" height="40"/>&nbsp;
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg" title="SQLite" alt="SQLite" width="40" height="40"/>&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" title="PostgreSQL" alt="PostgreSQL" width="40" height="40"/>&nbsp;
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" title="Docker" alt="Docker" width="40" height="40"/>&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original-wordmark.svg" title="Git" alt="Git" width="40" height="40"/>&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" title="GitHub" alt="GitHub" width="40" height="40"/>&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" title="VSCode" alt="VSCode" width="40" height="40"/>&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" title="Tailwind CSS" alt="Tailwind CSS" width="40" height="40"/>&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vitejs/vitejs-original.svg" title="Vite" alt="Vite" width="40" height="40"/>&nbsp;
 </div>
 
----
+## GitHub Stats
 
-### :fire: My Stats :
-
-[![Çağrı Giray Keşan's GitHub Stats](https://github-readme-stats-anuraghazra1.vercel.app/api?username=Cagrik34&count_private=true&show_icons=true&include_all_commits=true&title_color=e6f1ff&text_color=bcd0e6&icon_color=4aa8ff&bg_color=0a0f1a&border_color=1c2a3a)](https://github.com/Cagrik34)
-
-[![GitHub Streak](https://my-streak-stats-psi.vercel.app/?user=Cagrik34&timezone=Europe/Istanbul&background=0D1117&border=30363D&stroke=30363D&ring=FF8C00&fire=FF8C00&currStreakNum=FF8C00&currStreakLabel=FF8C00&sideNums=38BDF8&sideLabels=38BDF8&dates=94A3B8&border_radius=8)](https://github.com/Cagrik34)
-
----
-
-### 💡 About Me
-
-- 🔷 **Official Google Open Source Contributor** — Contributed a zero-cloud local hybrid RAG reference recipe to [google-gemini/cookbook](https://github.com/google-gemini/cookbook) combining SQLite FTS5 BM25, `gemini-embedding-001`, and the modern `google-genai` Interactions API (Merged in PR [#1347](https://github.com/google-gemini/cookbook/pull/1347)).
-- 🏆 **Official Microsoft Open Source Contributor** — Contributed zero-cloud local hybrid RAG recipes to [microsoft/PhiCookBook](https://github.com/microsoft/PhiCookBook) leveraging `phi-4-mini` and SQLite FTS5 (Merged in PR [#571](https://github.com/microsoft/PhiCookBook/pull/571)).
-- 📦 **GitHub Developer Program Member** — Author of [Hybrid RAG Issue & PR Assistant](https://github.com/marketplace/actions/hybrid-rag-issue-pr-assistant), an official marketplace GitHub Action for deterministic lexical and dense semantic repository triage.
-- 🤖 **AI Intern @ Microsoft** (AI Innovators Summer Program) — Engineered local RAG systems using Microsoft Foundry Local SDK, dense vector embeddings, SQLite FTS5 BM25 hybrid retrieval (RRF), and real-time SSE streaming.
-- ⚡ **Ex-Frontend Intern @ TurkNet** — Developed and optimized production user interfaces handling live customer traffic with React, Next.js, TypeScript, and Redux Toolkit.
-- 🧩 **Systems Architecture & Performance** — Specialized in client-side telemetry, Web Workers concurrency, AST lexing, standalone `@vercel/ncc` packaging, and on-device SLM inference.
-- 🏅 **Leadership & Structured Problem Solving** — Graduate of **McKinsey.org Forward Program** (MECE framework & strategic communication) & Global Finalist at **Aspire Leaders Program** (Harvard-founded).
-- 🎓 **Education** — Web Design & Coding at Istanbul University | Computer Programming Graduate from Istanbul Beykent University (3.61/4.00 GPA).
-
----
-
-### 📰 Engineering Publications & Technical Deep-Dives
-
-- 📖 **[Medium Deep-Dive: I Ditched Cloud Vector Databases for SQLite FTS5, and My RAG Pipeline Got 10x Better](https://medium.com/@cagrigiraykesan/i-ditched-cloud-vector-databases-for-sqlite-fts5-and-my-rag-pipeline-got-10x-better-05b79764adad)** — Architectural analysis of semantic failure modes in code search, BM25 + Dense embedding trade-offs, and Reciprocal Rank Fusion ($k=60$) mathematics.
-- 📖 **[DEV.to Edition: I Ditched Cloud Vector Databases for SQLite FTS5](https://dev.to/cagrik34/i-ditched-cloud-vector-databases-for-sqlite-fts5-and-my-rag-pipeline-got-10x-better-759)** — Developer-oriented breakdown on eliminating cloud database costs and latency using embedded SQLite FTS5 in RAG pipelines.
-- 💬 **[GitHub Community Discussion #205923](https://github.com/community/community/discussions/205923)** — Technical deep-dive on deterministic BM25 and dense semantic fusion for repository issue and PR triage.
-
----
-
-### 🛠️ Tech Stack & Capabilities
-
-| Domain | Technologies & Tools |
-| :--- | :--- |
-| **Frontend & Systems Architecture** | React 19, Next.js (App Router), TypeScript (Strict), Three.js (WebGL), Redux Toolkit, Web Workers, Vite, Tailwind CSS, PWA, Vitest |
-| **Backend & Databases** | Python, FastAPI, Node.js (v20/v22/v24), Express, RESTful APIs, SQLite (FTS5 BM25), PostgreSQL, MongoDB |
-| **AI & Retrieval Systems** | Hybrid RAG, Okapi BM25 ($k_1=1.5, b=0.75$), Reciprocal Rank Fusion ($k=60$), Microsoft Foundry Local SDK, Google GenAI SDK, Dense Embeddings, RAG Benchmarking |
-| **DevOps & Static Analysis** | GitHub Actions SDK, AST Static Lexing, Tarjan SCC Graph Algorithms, `@vercel/ncc` Bundling, Multi-Repo CI/CD Matrix, Docker, Git |
-
----
-
-### 📌 Featured Projects
-
-#### 🚀 [Hybrid RAG Issue & PR Assistant — GitHub Action](https://github.com/Cagrik34/hybrid-rag-action)
-> **GitHub Marketplace • Node.js 24 • @vercel/ncc • Okapi BM25 • Dense Vectors • RRF Fusion • Phi-4**
-> - **Production-Grade GitHub Action:** Automates repository triage using a hybrid RAG pipeline fusing Okapi BM25 keyword scoring with dense semantic embeddings via Reciprocal Rank Fusion ($k=60$).
-> - **Deterministic Line-Span Grounding:** Implements markdown AST-aware chunking to output verified citations (`[file#L<start>-L<end>]`), packaged into a single zero-dependency bundle via `@vercel/ncc`.
-> - **Autonomous Sunday Sentinel:** Features cloud cron automation (`ecosystem-sentinel.yml`) verifying multi-framework compatibility across Python 3.11/3.12 with automated issue triage.
-> - **Official Marketplace Listing:** [Hybrid RAG Issue & PR Assistant](https://github.com/marketplace/actions/hybrid-rag-issue-pr-assistant)
-
-#### 🌉 [Zenith Istanbul — 3D Codebase Topology Visualizer & CI Gatekeeper](https://github.com/Cagrik34/zenith-istanbul)
-> **JavaScript (ESM) • Node.js Native • Three.js WebGL • Tarjan SCC • MITRE CWE Sentry • Zero-Dependency • Air-Gapped**
-> - **Interactive 3D Architectural Topology:** Statically analyzes JavaScript/TypeScript AST dependencies and maps modular graph topology into an interactive 3D spatial environment modeled after the Istanbul Bosphorus.
-> - **Tarjan SCC Cycle Solver & Contract Extractor:** Evaluates circular dependency chains in $O(V+E)$ time with zero external npm dependencies, synthesizing decoupled TypeScript contract interfaces (`types/*.contract.ts`) and standard Unified Git Diffs.
-> - **Security Boundary Sentry & CI Gatekeeper:** Audits architectural boundaries against MITRE CWE standards (CWE-668, CWE-200, CWE-798). Operates as a headless CI gatekeeper (`--fail-on-cycle --fail-on-leak`) with automated port collision fallback and standalone HTML report generation.
-> - **Local-First & Air-Gapped:** 100% client-side memory execution with zero cloud telemetry, bundled local Three.js r128, and local WOFF2 variable fonts. Verified by 48 automated native unit and integration tests.
-> - **Live Demo:** [https://cagrik34.github.io/zenith-istanbul/](https://cagrik34.github.io/zenith-istanbul/)
-
-#### 🌐 [Zenith Nexus — Local-First Developer Intelligence & Workflow System](https://github.com/Cagrik34/zenith-nexus)
-> **React 19 • TypeScript 5.8 • Vite 6 • Web Workers • AST Parser • SQLite FTS5 • Vitest • Zero-Cloud**
-> - **Client-Side Isolated Architecture:** Developer platform featuring **RepoSense** (real-time AST codebase topology at 120 FPS), **DevForge** (JSON-to-TS/Zod, cURL translator, WASM sandbox), and **MindVault** (sub-5ms SQLite FTS5 BM25 note search).
-> - **Fault-Tolerant Resilience:** Production React 19 Error Boundary architecture, sub-vendor Rollup chunking (17.9 kB main gzip), and 100% automated Vitest unit & benchmark coverage.
-> - **Live Demo:** [https://cagrik34.github.io/zenith-nexus/](https://cagrik34.github.io/zenith-nexus/)
-
-#### ⚡ [Zenith AI — Privacy-Preserving Local RAG Assistant](https://github.com/Cagrik34/microsoft-foundry-local-rag-assistant)
-> **Python • React 18 • TypeScript • FastAPI • Foundry Local SDK • phi-4-mini • SQLite FTS5 • Docker**
-> - **Offline Local RAG:** Executes `phi-4-mini` (3.8B) and `qwen3-embedding-0.6b` (1024-d) locally with zero external API dependency and zero cloud data egress.
-> - **Hybrid Search Engine:** Fuses dense embeddings with SQLite FTS5 BM25 using Reciprocal Rank Fusion ($k=60$) with an **89.4% composite quality score** across RAG evaluation benchmarks.
-> - **Repository:** [microsoft-foundry-local-rag-assistant](https://github.com/Cagrik34/microsoft-foundry-local-rag-assistant)
-
-#### 🌌 [Zenith Atlas — High-Performance Financial Analytics Terminal](https://github.com/Cagrik34/zenith-atlas)
-> **React 19 • TypeScript 5.8 • Vite 6 • Web Workers • PWA • Client-Side Memory Architecture**
-> - **Client-Side Financial Telemetry:** High-performance browser terminal computing quantitative metrics across **1,051 TEFAS mutual funds** and market benchmarks natively in memory.
-> - **Concurrent Execution:** Dedicated Web Workers running Black-Litterman, Monte Carlo, and HRP risk models with 60 FPS Canvas rendering and automated 4-page A4 PDF reporting.
-> - **Live Demo:** [https://cagrik34.github.io/zenith-atlas/](https://cagrik34.github.io/zenith-atlas/)
-
-#### 👁️️ [Real-Time Face Emotion & Intensity System](https://github.com/Cagrik34/RealTime-Face-Emotion-Recognition)
-> **Python • TensorFlow/Keras • OpenCV • Tkinter • SQLite**
-> - End-to-end computer vision desktop application utilizing dynamic thresholding to classify **13 distinct emotional intensity levels** in real time.
-> - Modular architecture with live Tkinter GUI telemetry and SQLite session data logging for adaptive UI/UX feedback.
-
----
-
-### 🏛️️ Verified Open-Source Contributions
-
-- 🔷 **[google-gemini/cookbook #1347](https://github.com/google-gemini/cookbook/pull/1347)** — **Merged Official Contributor**: Contributed a zero-cloud local hybrid RAG reference recipe combining SQLite FTS5 BM25 lexical search with dense embeddings (`gemini-embedding-001`), Reciprocal Rank Fusion ($k=60$), and grounded synthesis via the modern `google-genai` Interactions API.
-- 🏆 **[microsoft/PhiCookBook #571](https://github.com/microsoft/PhiCookBook/pull/571)** — **Merged Official Contributor**: Contributed a zero-cloud local hybrid RAG recipe combining SQLite FTS5 BM25 lexical search with `phi-4-mini` local inference via the Microsoft Foundry Local SDK.
-
----
-
-### 🏆 Key Milestones & Programs
-
-- 🌟 **Microsoft Türkiye AI Innovators Summer Program** (2026) — Selected for hands-on AI architecture & Copilot orchestration.
-- 🎓 **Aspire Leaders Program** (2026) — Global Finalist (Selected among 10,588 finalists from 50,284 worldwide applicants) & Official CEO Recognition.
-- 📜 **McKinsey.org Forward Program** (2026) — 100% Completion (Structured Problem Solving, MECE Framework, Strategic Communication).
-- 🌐 **Google Developer Groups (GDG) Build With AI Türkiye** & **HUAWEI Data Science & ML Bootcamp** participant.
-
----
-
-### 📬 Connect With Me
-
-<p align="left">
-  <a href="https://www.linkedin.com/in/cagrigiraykesan" target="_blank"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo" /></a>
-  <a href="mailto:cagrigiraykesan@gmail.com" target="_blank"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="gmail logo" /></a>
+<p align="center">
+  <a href="https://github.com/Cagrik34"><img src="https://github-readme-stats-anuraghazra1.vercel.app/api?username=Cagrik34&count_private=true&show_icons=true&include_all_commits=true&title_color=e6f1ff&text_color=bcd0e6&icon_color=4aa8ff&bg_color=0a0f1a&border_color=e6f1ff&border_radius=8" alt="GitHub Stats" width="49%" /></a>&nbsp;
+  <a href="https://github.com/Cagrik34"><img src="https://my-streak-stats-psi.vercel.app/?user=Cagrik34&timezone=Europe/Istanbul&background=0a0f1a&border=e6f1ff&stroke=30363D&ring=FF8C00&fire=FF8C00&currStreakNum=FF8C00&currStreakLabel=FF8C00&sideNums=38BDF8&sideLabels=38BDF8&dates=94A3B8&border_radius=8" alt="GitHub Streak" width="49%" /></a>
 </p>
+
+## Open-Source Contributions
+
+| Repository | PR | Contribution |
+| :--- | :--- | :--- |
+| [microsoft/PhiCookBook](https://github.com/microsoft/PhiCookBook) | [#571](https://github.com/microsoft/PhiCookBook/pull/571) (merged) | Local hybrid RAG recipe: SQLite FTS5 BM25 and `phi-4-mini` inference through the Foundry Local SDK. |
+| [google-gemini/cookbook](https://github.com/google-gemini/cookbook) | [#1347](https://github.com/google-gemini/cookbook/pull/1347) (merged) | Local hybrid RAG recipe: SQLite FTS5 BM25 and `gemini-embedding-001`, fused with Reciprocal Rank Fusion (k=60), with grounded synthesis through the `google-genai` Interactions API. |
+
+## Experience
+
+**Artificial Intelligence Intern, Microsoft** · May 2026 – Aug 2026 · Remote
+AI Innovators Summer Program. Built Zenith AI, a local RAG assistant on the Foundry Local SDK, with hybrid retrieval (dense embeddings + SQLite FTS5 BM25 via RRF), SSE streaming, and an automated evaluation suite. Contributed the hybrid RAG recipe upstream to microsoft/PhiCookBook.
+
+**Frontend Development Intern, Turknet** · May 2025 – Dec 2025 · Hybrid
+Built production interfaces with live user traffic using React, Next.js, and TypeScript. Implemented Figma designs as responsive components, managed global state with Redux, added feature toggles for production releases, and integrated REST APIs within an Agile/Scrum team.
+
+**Earlier:** Frontend Intern (volunteer), ONFTECH, 2024 · IT Intern, Paynet Ödeme Hizmetleri, 2022 – 2023
+
+## Selected Projects
+
+### [Hybrid RAG Issue & PR Assistant](https://github.com/Cagrik34/hybrid-rag-action)
+GitHub Action ([Marketplace](https://github.com/marketplace/actions/hybrid-rag-issue-pr-assistant)) · Node.js 24 · `@vercel/ncc` · Okapi BM25 · dense vectors · RRF
+
+- Triages issues and pull requests by fusing Okapi BM25 with dense semantic embeddings through Reciprocal Rank Fusion (k=60).
+- Uses Markdown AST-aware chunking to return verifiable line-span citations (`[file#L<start>-L<end>]`).
+- Ships as a single dependency-free bundle via `@vercel/ncc`.
+
+### [Zenith AI: Local RAG Assistant](https://github.com/Cagrik34/microsoft-foundry-local-rag-assistant)
+Python · FastAPI · React 18 · TypeScript · Foundry Local SDK · SQLite FTS5 · Docker
+
+- Runs `phi-4-mini` (3.8B) and `qwen3-embedding-0.6b` (1024-d) on-device, with no external API calls and no data leaving the machine.
+- Combines dense retrieval and FTS5 BM25 with RRF (k=60). Streams tokens over SSE and supports offline speech-to-text with `faster-whisper`.
+- Includes an automated evaluation suite (`tests/test_evaluation_benchmark.py`). On the repository's internal benchmark: 89.4% composite score, 96.2% faithfulness, 100% groundedness.
+
+### [Zenith Istanbul: Codebase Topology Visualizer and CI Gate](https://github.com/Cagrik34/zenith-istanbul)
+JavaScript (ESM) · Node.js · Three.js · Tarjan SCC · zero dependencies · [Live demo](https://cagrik34.github.io/zenith-istanbul/)
+
+- Statically analyzes JavaScript and TypeScript dependencies and renders the module graph as an interactive 3D scene.
+- Detects circular dependencies with Tarjan's SCC algorithm in O(V+E) and generates decoupled TypeScript contract interfaces.
+- Audits architectural boundaries against CWE-668, CWE-200, and CWE-798. Runs headless in CI (`--fail-on-cycle --fail-on-leak`).
+- Local analysis has no CDN dependencies and no telemetry. Covered by 48 unit and integration tests (48/48 passing).
+
+### [Zenith Atlas: Quantitative Analytics Terminal](https://github.com/Cagrik34/zenith-atlas)
+React 19 · TypeScript 5.8 · Vite 6 · Web Workers · PWA · IndexedDB · [Live demo](https://cagrik34.github.io/zenith-atlas/)
+
+- Runs entirely in the browser over 1,051 TEFAS funds plus BIST, FX, and macro data. Portfolio data stays on the device.
+- Implements 11 quantitative engines, including Black-Litterman, HRP, and a 10,000-path Monte Carlo, executed in Web Workers.
+- Exports a 4-page A4 PDF report. Covered by 23 Vitest tests (23/23 passing).
+
+### [Zenith Nexus: Local-First Developer Toolkit](https://github.com/Cagrik34/zenith-nexus)
+React 19 · TypeScript 5.8 · Vite 6 · Web Workers · SQLite FTS5 · Vitest · [Live demo](https://cagrik34.github.io/zenith-nexus/)
+
+- **RepoSense:** real-time AST codebase topology.
+- **DevForge:** JSON-to-TypeScript/Zod conversion, cURL translation, WASM sandbox.
+- **MindVault:** note search with SQLite FTS5 BM25.
+
+Also: [Real-Time Face Emotion & Intensity System](https://github.com/Cagrik34/RealTime-Face-Emotion-Recognition) (Python, TensorFlow/Keras, OpenCV)
+
+## Writing
+
+[Medium: hybrid RAG with SQLite FTS5 and Reciprocal Rank Fusion](https://medium.com/@cagrigiraykesan/i-ditched-cloud-vector-databases-for-sqlite-fts5-and-my-rag-pipeline-got-10x-better-05b79764adad) · [DEV.to edition](https://dev.to/cagrik34/i-ditched-cloud-vector-databases-for-sqlite-fts5-and-my-rag-pipeline-got-10x-better-759) · [GitHub Discussion #205923: BM25 and dense fusion for issue and PR triage](https://github.com/community/community/discussions/205923)
+
+## Skills
+
+React, Next.js, TypeScript, JavaScript, Redux Toolkit, Tailwind CSS, Vite, Three.js, Web Workers, Node.js, Express, Python, FastAPI, REST APIs, SQLite (FTS5), PostgreSQL, MongoDB, Docker, GitHub Actions, Git, Vitest, Jira, Agile/Scrum, hybrid search (BM25 + dense retrieval), RAG, small language model (SLM) inference
+
+## Education & Programs
+
+Web Design & Coding, Istanbul University (2025 – present) · Computer Programming, Istanbul Beykent University (GPA 3.61/4.00) · Aspire Leaders Program 2026, Global Finalist (10,588 of 50,284 accepted candidates), with a letter of recognition from the Aspire CEO · McKinsey.org Forward Program 2026 · HUAWEI Student Developers Data Science & ML Bootcamp · Google Developer Groups Build With AI Türkiye
+
+## Contact
+
+[cagrigiraykesan@gmail.com](mailto:cagrigiraykesan@gmail.com) · [linkedin.com/in/cagrigiraykesan](https://www.linkedin.com/in/cagrigiraykesan) · [github.com/Cagrik34](https://github.com/Cagrik34)
