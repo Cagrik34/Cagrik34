@@ -26,8 +26,8 @@
 ## GitHub Stats
 
 <p align="center">
-  <a href="https://github.com/Cagrik34"><img src="https://github-readme-stats-anuraghazra1.vercel.app/api?username=Cagrik34&count_private=true&show_icons=true&include_all_commits=true&title_color=e6f1ff&text_color=bcd0e6&icon_color=4aa8ff&bg_color=0a0f1a&border_color=e6f1ff&border_radius=8" alt="GitHub Stats" width="49%" /></a>&nbsp;
-  <a href="https://github.com/Cagrik34"><img src="https://my-streak-stats-psi.vercel.app/?user=Cagrik34&timezone=Europe/Istanbul&background=0a0f1a&border=e6f1ff&stroke=30363D&ring=FF8C00&fire=FF8C00&currStreakNum=FF8C00&currStreakLabel=FF8C00&sideNums=38BDF8&sideLabels=38BDF8&dates=94A3B8&border_radius=8" alt="GitHub Streak" width="49%" /></a>
+  <a href="https://github.com/Cagrik34"><img src="https://github-readme-stats-anuraghazra1.vercel.app/api?username=Cagrik34&count_private=true&show_icons=true&include_all_commits=true&title_color=e6f1ff&text_color=bcd0e6&icon_color=4aa8ff&bg_color=0a0f1a&border_color=e6f1ff&border_radius=8" alt="GitHub Stats" width="390" /></a>
+  <a href="https://github.com/Cagrik34"><img src="https://my-streak-stats-psi.vercel.app/?user=Cagrik34&timezone=Europe/Istanbul&background=0a0f1a&border=e6f1ff&stroke=30363D&ring=FF8C00&fire=FF8C00&currStreakNum=FF8C00&currStreakLabel=FF8C00&sideNums=38BDF8&sideLabels=38BDF8&dates=94A3B8&border_radius=8" alt="GitHub Streak" width="390" /></a>
 </p>
 
 ## Open-Source Contributions
@@ -39,10 +39,10 @@
 
 ## Experience
 
-**Artificial Intelligence Intern, Microsoft** · May 2026 – Aug 2026 · Remote
-AI Innovators Summer Program. Built Zenith AI, a local RAG assistant on the Foundry Local SDK, with hybrid retrieval (dense embeddings + SQLite FTS5 BM25 via RRF), SSE streaming, and an automated evaluation suite. Contributed the hybrid RAG recipe upstream to microsoft/PhiCookBook.
+**Artificial Intelligence Intern, Microsoft** · May 2026 – Aug 2026 · Remote<br/>
+AI Innovators Summer Program. Built Zenith AI, a local RAG assistant on the Foundry Local SDK, with hybrid retrieval (dense embeddings + SQLite FTS5 BM25 via RRF), SSE streaming, and an automated evaluation benchmark suite.
 
-**Frontend Development Intern, Turknet** · May 2025 – Dec 2025 · Hybrid
+**Frontend Development Intern, Turknet** · May 2025 – Dec 2025 · Hybrid<br/>
 Built production interfaces with live user traffic using React, Next.js, and TypeScript. Implemented Figma designs as responsive components, managed global state with Redux, added feature toggles for production releases, and integrated REST APIs within an Agile/Scrum team.
 
 **Earlier:** Frontend Intern (volunteer), ONFTECH, 2024 · IT Intern, Paynet Ödeme Hizmetleri, 2022 – 2023
@@ -89,16 +89,29 @@ Also: [Real-Time Face Emotion & Intensity System](https://github.com/Cagrik34/Re
 
 ## Writing
 
-[Medium: hybrid RAG with SQLite FTS5 and Reciprocal Rank Fusion](https://medium.com/@cagrigiraykesan/i-ditched-cloud-vector-databases-for-sqlite-fts5-and-my-rag-pipeline-got-10x-better-05b79764adad) · [DEV.to edition](https://dev.to/cagrik34/i-ditched-cloud-vector-databases-for-sqlite-fts5-and-my-rag-pipeline-got-10x-better-759) · [GitHub Discussion #205923: BM25 and dense fusion for issue and PR triage](https://github.com/community/community/discussions/205923)
+- 📖 **[Medium]** [Hybrid RAG with SQLite FTS5 and Reciprocal Rank Fusion](https://medium.com/@cagrigiraykesan/i-ditched-cloud-vector-databases-for-sqlite-fts5-and-my-rag-pipeline-got-10x-better-05b79764adad)
+- 📝 **[DEV.to]** [I Ditched Cloud Vector Databases for SQLite FTS5](https://dev.to/cagrik34/i-ditched-cloud-vector-databases-for-sqlite-fts5-and-my-rag-pipeline-got-10x-better-759)
+- 💬 **[GitHub Discussion #205923]** [Deterministic BM25 and Dense Semantic Fusion for Repository Triage](https://github.com/community/community/discussions/205923)
 
 ## Skills
 
-React, Next.js, TypeScript, JavaScript, Redux Toolkit, Tailwind CSS, Vite, Three.js, Web Workers, Node.js, Express, Python, FastAPI, REST APIs, SQLite (FTS5), PostgreSQL, MongoDB, Docker, GitHub Actions, Git, Vitest, Jira, Agile/Scrum, hybrid search (BM25 + dense retrieval), RAG, small language model (SLM) inference
+- **Frontend & Systems:** React 19, Next.js, TypeScript, JavaScript, Redux Toolkit, Tailwind CSS, Vite, Three.js, Web Workers
+- **Backend & Data:** Python, FastAPI, Node.js, Express, REST APIs, SQLite (FTS5), PostgreSQL, MongoDB, Docker
+- **AI & Retrieval:** Hybrid Search (BM25 + Dense Vectors), Reciprocal Rank Fusion (RRF), RAG, SLM On-Device Inference
+- **Engineering Tools:** Git, GitHub Actions, Vitest, Jira, Agile/Scrum
 
 ## Education & Programs
 
-Web Design & Coding, Istanbul University (2025 – present) · Computer Programming, Istanbul Beykent University (GPA 3.61/4.00) · Aspire Leaders Program 2026, Global Finalist (10,588 of 50,284 accepted candidates), with a letter of recognition from the Aspire CEO · McKinsey.org Forward Program 2026 · HUAWEI Student Developers Data Science & ML Bootcamp · Google Developer Groups Build With AI Türkiye
+- 🎓 **Istanbul University** &bull; Web Design & Coding *(2025 – Present)*
+- 🎓 **Istanbul Beykent University** &bull; Associate Degree in Computer Programming *(GPA: 3.61/4.00)*
+- 🌟 **Aspire Leaders Program (2026)** &bull; Global Finalist *(Top 10,588 of 50,284 worldwide)*, CEO Letter of Recognition
+- 📜 **McKinsey.org Forward Program (2026)** &bull; MECE Framework & Structured Problem Solving
+- 🌐 **HUAWEI Bootcamp & GDG Build With AI Türkiye** &bull; Machine Learning & Applied AI Participant
 
 ## Contact
 
-[cagrigiraykesan@gmail.com](mailto:cagrigiraykesan@gmail.com) · [linkedin.com/in/cagrigiraykesan](https://www.linkedin.com/in/cagrigiraykesan) · [github.com/Cagrik34](https://github.com/Cagrik34)
+<p align="left">
+  <a href="mailto:cagrigiraykesan@gmail.com">cagrigiraykesan@gmail.com</a> &bull;
+  <a href="https://www.linkedin.com/in/cagrigiraykesan">LinkedIn</a> &bull;
+  <a href="https://github.com/Cagrik34">GitHub</a>
+</p>
